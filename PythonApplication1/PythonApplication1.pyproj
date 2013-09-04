@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29cfc776-96bf-4449-b922-2fc4bd918014}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>module1.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Asset.py" />
+    <Compile Include="Character.py" />
+    <Compile Include="Character_layout.py" />
+    <Compile Include="class1.py" />
+    <Compile Include="GroupLayoutDemo.py" />
+    <Compile Include="GUI_armor.py" />
+    <Compile Include="GUI_complications.py" />
+    <Compile Include="GUI_factory.py" />
+    <Compile Include="GUI_Lifepath.py" />
+    <Compile Include="GUI_sub_per.py" />
+    <Compile Include="GUI_items.py" />
+    <Compile Include="GUI_math_analysis.py" />
+    <Compile Include="GUI_perks.py" />
+    <Compile Include="GUI_personality.py" />
+    <Compile Include="GUI_skills.py" />
+    <Compile Include="GUI_talents.py" />
+    <Compile Include="inheritable.py" />
+    <Compile Include="inherited.py" />
+    <Compile Include="item.py" />
+    <Compile Include="Lifepath.py" />
+    <Compile Include="Machine.py" />
+    <Compile Include="Process_2.py" />
+    <Compile Include="Sector.py" />
+    <Compile Include="Task.py" />
+    <Compile Include="GUI_d_stats.py" />
+    <Compile Include="Controller.py" />
+    <Compile Include="dice.py" />
+    <Compile Include="Fuzion.py" />
+    <Compile Include="GUI_stats_box.py" />
+    <Compile Include="GUI_stat_info.py" />
+    <Compile Include="GUI_weapons.py" />
+    <Compile Include="GUI_wpn_info.py" />
+    <Compile Include="module1.py" />
+    <Compile Include="Bar_test.py" />
+    <Compile Include="Process.py" />
+    <Compile Include="Settings.py" />
+    <Compile Include="Tools.py" />
+    <Compile Include="Weapon.py" />
+    <Compile Include="xml_file.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lifepath\" />
+    <Folder Include="data\" />
+    <Folder Include="lifepath\family\" />
+    <Folder Include="source" />
+    <Folder Include="source\wpns" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lifepath\family\childhood_enviroment.txt" />
+    <Content Include="lifepath\family\childhood_trauma.txt" />
+    <Content Include="lifepath\family\family_contact.txt" />
+    <Content Include="lifepath\family\family_is.txt" />
+    <Content Include="lifepath\family\family_is_2.txt" />
+    <Content Include="lifepath\family\family_rank.txt" />
+    <Content Include="lifepath\family\family_siblings.txt" />
+    <Content Include="lifepath\family\family_something_happened.txt" />
+    <Content Include="lifepath\family\family_status.txt" />
+    <Content Include="lifepath\family\family_tragedy.txt" />
+    <Content Include="lifepath\lp_4A_menu.txt" />
+    <Content Include="lifepath\lp_4B_menu.txt" />
+    <Content Include="lifepath\lp_disaster_do_something.txt" />
+    <Content Include="lifepath\lp_disaster_strikes.txt" />
+    <Content Include="lifepath\lp_enemy_cause.txt" />
+    <Content Include="lifepath\lp_enemy_do.txt" />
+    <Content Include="lifepath\lp_enemy_hate.txt" />
+    <Content Include="lifepath\lp_enemy_resource.txt" />
+    <Content Include="lifepath\lp_enemy_who.txt" />
+    <Content Include="lifepath\lp_event_menu.txt" />
+    <Content Include="lifepath\lp_friend_relationship.txt" />
+    <Content Include="lifepath\lp_love_complicated.txt" />
+    <Content Include="lifepath\lp_love_event.txt" />
+    <Content Include="lifepath\lp_love_mutual.txt" />
+    <Content Include="lifepath\lp_love_problems.txt" />
+    <Content Include="lifepath\lp_love_tragic.txt" />
+    <Content Include="lifepath\lp_lucky.txt" />
+    <Content Include="source\.project" />
+    <Content Include="source\affections.txt" />
+    <Content Include="source\attributes.txt" />
+    <Content Include="source\attributes_skills.txt" />
+    <Content Include="source\clothes.txt" />
+    <Content Include="source\complications.txt" />
+    <Content Include="source\complications_descriptions.txt" />
+    <Content Include="source\complication_categories.txt" />
+    <Content Include="source\descr_attries.txt" />
+    <Content Include="source\disorders.txt" />
+    <Content Include="source\exmode.txt" />
+    <Content Include="source\female_names.txt" />
+    <Content Include="source\firstnames.txt" />
+    <Content Include="source\first_nick_name.txt" />
+    <Content Include="source\hair.txt" />
+    <Content Include="source\inmode.txt" />
+    <Content Include="source\items.txt" />
+    <Content Include="source\lastnames.txt" />
+    <Content Include="source\last_nick_name.txt" />
+    <Content Include="source\perks.txt" />
+    <Content Include="source\perk_descriptions.txt" />
+    <Content Include="source\phobias.txt" />
+    <Content Include="source\prime_motivation.txt" />
+    <Content Include="source\quality_rating.txt" />
+    <Content Include="source\quirks.txt" />
+    <Content Include="source\skills.txt" />
+    <Content Include="source\money.txt" />
+    <Content Include="source\skill_categories.txt" />
+    <Content Include="source\skill_descriptions.txt" />
+    <Content Include="source\talents.txt" />
+    <Content Include="source\talent_descriptions.txt" />
+    <Content Include="source\valued_people.txt" />
+    <Content Include="source\valued_person.txt" />
+    <Content Include="source\valued_posession.txt" />
+    <Content Include="source\wpns\assault_rifles.txt" />
+    <Content Include="source\wpns\bows.txt" />
+    <Content Include="source\wpns\Excotic.txt" />
+    <Content Include="source\wpns\heavy.txt" />
+    <Content Include="source\wpns\h_pistols.txt" />
+    <Content Include="source\wpns\h_submachineguns.txt" />
+    <Content Include="source\wpns\l_pistols.txt" />
+    <Content Include="source\wpns\l_submachineguns.txt" />
+    <Content Include="source\wpns\machineguns.txt" />
+    <Content Include="source\wpns\melee.txt" />
+    <Content Include="source\wpns\m_pistols.txt" />
+    <Content Include="source\wpns\m_submachineguns.txt" />
+    <Content Include="source\wpns\o_rifles.txt" />
+    <Content Include="source\wpns\shotguns.txt" />
+    <Content Include="source\wpns\s_rifles.txt" />
+    <Content Include="source\wpns\v_h_pistols.txt" />
+    <Content Include="source\wpns\weapon_classes.txt" />
+    <Content Include="source\wpn_attributes.txt" />
+    <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
