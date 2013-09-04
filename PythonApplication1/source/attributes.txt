@@ -1,0 +1,10 @@
+Int
+Ref
+Tech
+Dex
+Pre
+Str
+Con
+Move
+Body
+Will

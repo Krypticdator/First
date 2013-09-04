@@ -1,0 +1,10 @@
+Int_How generally bright you are. As a rule, this is more than sheer intelligence, but also includes cleverness, awareness, perception, and ability to learn.
+Ref_Your response time and coordination, as used in aiming, throwing, juggling. A stage magician, for example, would have a high Reflex Statistic. Most importantly, this is the Statistic that affects your ability to hit things.
+Tech_Your ability to manipulate tools or instruments. This is not the same as reflexes, inasmuch as this covers the knack of using tools. One character might have a high Technique, but might not be able to fence or juggle. On the other hand, another might have high Reflexes, but only a fair level of Technique.
+Dex_Your overall physical competence, as pertains to balancing, leaping, jumping, combat and other athletic activities. A gymnast would have a high Dexterity. Most importantly, this Statistic is used to avoid being hit.
+Pre_Your ability to impress and influence people through your character and charisma; how well you get along with others; how you interact in social situations.
+Str_Your muscle mass and how effective it is for exerting force. The higher your strength, the more you can lift, drag, etc., and the more powerful the blows from your fists and other body parts.
+Con_How healthy you are. How resistant to shock effects, poisons and disease. You can be a really big, tough, strong guy and still get floored by a head cold!
+Move_Your speed of movement; running, leaping, swimming, etc.
+Body_Your size, toughness, and ability to stay alive and conscious due to physical mass, sheer bloody-mindedness, structure or other qualities. How much damage you can take is derived from this characteristic.
+Will_Your determination and ability to face danger, stress or dehumanization. It also represents your courage and tenacity.

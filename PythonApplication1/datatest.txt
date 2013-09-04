@@ -1,0 +1,7 @@
+Awarness / Notice				|5
+Hide / Evade				|6
+Human Perception				|7
+Lipreading				|8
+Shadow / Track				|9
+
+

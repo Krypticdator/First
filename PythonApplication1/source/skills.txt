@@ -1,0 +1,93 @@
+Brawling / Hand To Hand
+Melee
+Fencing
+Archery
+Gunnery
+Handgun
+Heavy Weapons
+Rifle
+Submachinegun
+Awarness / Notice
+Hide / Evade
+Lipreading
+Shadow / Track
+Surveillance
+Driving
+Motorcycle
+Hvy. Machinery
+Piloting
+Pilot (Gyro)
+Pilot (Fixed Wing)
+Pilot (Dirigible)
+Pilot (Vect. Thrust)
+Power Armor
+Subjock
+Link (mecha)
+Athletics
+Dance
+Dodge & Escape
+Endurance
+Resistance
+Stealth
+Strength Feat
+Swimming
+Animal Handling
+Bribery
+Interrogation
+Intimidate
+Oratory
+Streetwise
+Human Perception
+Interview
+Leadership
+Seduction
+Social Etiquette
+Personal Grooming
+Persuasion & Fast Talk
+Wardrobe & Style
+Aero Tech
+AV Tech
+Basic Tech
+Cryotank Operation
+CyberTech
+Demolitions
+Disguise
+Electronics
+Elect. Security
+First Aid
+Forgery
+Gyro Tech
+Jury Rig
+Mecha Tech
+Medical Tech
+Paint or Draw
+Photo & Film
+Pharmaceuticals
+Pick Lock
+Pick Pocket
+Weaponsmith
+Inferface
+Perform
+Play Instrument
+Ventriloquist
+Accounting
+Anthropology
+Biology
+Botany
+Chemistry
+Coding
+Composition
+Diagnose Illness
+Education & Gen Know
+Expert
+Gamble
+Geology
+History
+Language
+Library Search
+Mathematics
+Market Trading
+Physics
+Teaching
+Wilderness Survival
+Zoology

@@ -1,0 +1,91 @@
+Fighting;Brawling / Hand To Hand
+Fighting;Melee
+Fighting;Fencing
+Ranged Weapons;Archery
+Ranged Weapons;Gunnery
+Ranged Weapons;Handgun
+Ranged Weapons;Heavy Weapons
+Ranged Weapons;Rifle
+Ranged Weapons;Submachinegun
+Awarness;Awarness / Notice
+Awarness;Hide / Evade
+Awarness;Lipreading
+Awarness;Shadow / Track
+Awarness;Surveillance
+Control;Driving
+Control;Motorcycle
+Control;Hvy. Machinery
+Control;Pilot (Gyro)
+Control;Pilot (Fixed Wing)
+Control;Pilot (Dirigible)
+Control;Pilot (Vect. Thrust)
+Control;Power Armor
+Control;Subjock
+Control;Link (mecha)
+Body;Athletics
+Body;Dance
+Body;Dodge & Escape
+Body;Endurance
+Body;Resistance
+Body;Stealth
+Body;Strength Feat
+Body;Swimming
+Interaction;Animal Handling
+Interaction;Bribery
+Interaction;Interrogation
+Interaction;Intimidate
+Interaction;Oratory
+Interaction;Streetwise
+Awarness;Human Perception
+Interaction;Interview
+Interaction;Leadership
+Interaction;Seduction
+Interaction;Social Etiquette
+Interaction;Personal Grooming
+Interaction;Persuasion & Fast Talk
+Interaction;Wardrobe & Style
+Technique;Aero Tech
+Technique;AV Tech
+Technique;Basic Tech
+Technique;Cryotank Operation
+Technique;CyberTech
+Technique;Demolitions
+Technique;Disguise
+Technique;Electronics
+Technique;Elect. Security
+Technique;First Aid
+Technique;Forgery
+Technique;Gyro Tech
+Technique;Jury Rig
+Technique;Mecha Tech
+Technique;Paint or Draw
+Technique;Photo & Film
+Technique;Pharmaceuticals
+Technique;Pick Lock
+Technique;Pick Pocket
+Technique;Weaponsmith
+Performance;Interface
+Performance;Perform
+Performance;Play Instrument
+Performance;Ventriloquist
+Education;Accounting
+Education;Anthropology
+Education;Biology
+Education;Botany
+Education;Chemistry
+Education;Coding
+Education;Composition
+Education;Diagnose Illness
+Education;Education & Gen Know
+Education;Expert
+Education;Gamble
+Education;Geology
+Education;History
+Education;Language
+Education;Library Search
+Education;Mathematics
+Education;Market Trading
+Education;Physics
+Education;Teaching
+Education;Wilderness Survival
+Education;Zoology

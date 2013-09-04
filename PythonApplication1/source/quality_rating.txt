@@ -1,0 +1,7 @@
+awful;0;11
+poor;11;15
+decent;15;19
+good;19;23
+great;23;27
+awesome;27;31
+godlike;31;60

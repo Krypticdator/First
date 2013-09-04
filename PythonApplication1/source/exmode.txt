@@ -1,0 +1,17 @@
+Antisocial/Solitary
+Aloof/Spacey
+Sober/Secretive
+Shy/Quiet
+Intellectual/Detached
+Intuitive/Spiritual
+Diplomatic/Courteous
+Silly/Manic
+Friendly/Helpful
+Arrogant/Rude
+Forceful/Aggressive
+Suspicious/Nervous
+Guilty/Depressive
+Antagonistic/Hostile
+Cheerful/Fluff-headed
+Angry/Quick-Tempered
+Assured/Stylish

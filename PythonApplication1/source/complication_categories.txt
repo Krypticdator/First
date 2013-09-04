@@ -1,0 +1,42 @@
+Psychological Complications;Absend Minded
+Psychological Complications;Bipolar
+Psychological Complications;Delusions
+Psychological Complications;Masochist
+Psychological Complications;Paranoia
+Psychological Complications;Phobia
+Psychological Complications;Split Personality
+Personality Traits;Airhead
+Personality Traits;Bad Tempered
+Personality Traits;Coward
+Personality Traits;Obsessed
+Personality Traits;Shy
+Personality Traits;Stubborn
+Personality Traits;Berserker
+Personality Traits;Unlucky
+Physiological Limitations;Missing limb
+Physiological Limitations;Reduced Hearing
+Physiological Limitations;Reduced Mobility
+Physiological Limitations;Reduced Sight
+Physiological Limitations;Uncontrollable Change
+Physiological Limitations;Vocal Impairment
+Physiological Limitations;Vulnerability
+Physiological Limitations;Susceptibility
+Social Complications;Public Figure
+Social Complications;Bad Rep
+Social Complications;Secret Identity
+Social Complications;Poverty
+Social Complications;Personal Habits
+Social Complications;Oppressed
+Social Complications;Distinctive
+Social Complications;Outsider
+Responsibilities;Code of Honor
+Responsibilities;Sense of Duty
+Responsibilities;Vow
+Responsibilities;Dependents
+Compulsive Behaviors;Addiction
+Compulsive Behaviors;Honesty
+Compulsive Behaviors;Impulsiveness
+Compulsive Behaviors;Intolerance
+Compulsive Behaviors;Jealousy
+Compulsive Behaviors;Kleptomania
+Compulsive Behaviors;Lecherous

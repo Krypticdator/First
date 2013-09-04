@@ -1,0 +1,94 @@
+Dex;Brawling / Hand To Hand
+Dex;Melee
+Dex;Fencing
+Ref;Archery
+Ref;Gunnery
+Ref;Handgun
+Ref;Heavy Weapons
+Ref;Rifle
+Ref;Submachinegun
+Int;Awarness / Notice
+Int;Hide / Evade
+Int;Lipreading
+Int;Shadow / Track
+Int;Surveillance
+Ref;Driving
+Ref;Motorcycle
+Ref;Hvy. Machinery
+Ref;Piloting
+Ref;Pilot (Gyro)
+Ref;Pilot (Fixed Wing)
+Ref;Pilot (Dirigible)
+Ref;Pilot (Vect. Thrust)
+Ref;Power Armor
+Ref;Subjock
+Will;Link (mecha)
+Dex;Athletics
+Dex;Dance
+Dex;Dodge & Escape
+Con;Endurance
+Will;Resistance
+Dex;Stealth
+Str;Str Feat
+Dex;Swimming
+Pre;Animal Handling
+Pre;Bribery
+Pre;Interrogation
+Pre;Intimidate
+Pre;Oratory
+Pre;Streetwise
+Int;Human Perception
+Pre;Interview
+Pre;Leadership
+Pre;Seduction
+Pre;Social Etiquette
+Pre;Personal Grooming
+Pre;Persuasion & Fast Talk
+Pre;Trading
+Pre;Wardrobe & Style
+Tech;Aero Tech
+Tech;AV Tech
+Tech;Basic Tech
+Tech;Cryotank Operation
+Tech;CyberTech
+Tech;Demolitions
+Tech;Disguise
+Tech;Electronics
+Tech;Elect. Security
+Tech;First Aid
+Tech;Forgery
+Tech;Gyro Tech
+Tech;Jury Rig
+Tech;Mecha Tech
+Tech;Medical Tech
+Tech;Paint or Draw
+Tech;Photo & Film
+Tech;Pharmaceuticals
+Tech;Pick Lock
+Tech;Pick Pocket
+Tech;Weaponsmith
+Int;Inferface
+Int;Perform
+Int;Play Instrument
+Int;Ventriloquist
+Int;Accounting
+Int;Anthropology
+Int;Biology
+Int;Botany
+Int;Chemistry
+Int;Coding
+Int;Composition
+Int;Diagnose Illness
+Int;Education & Gen Know
+Int;Expert
+Int;Gamble
+Int;Geology
+Int;History
+Int;Language
+Int;Library Search
+Int;Mathematics
+Int;Market Trading
+Int;Physics
+Int;Teaching
+Int;Wilderness Survival
+Int;Zoology

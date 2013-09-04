@@ -1,0 +1,14 @@
+Name 
+Type 
+WA 
+Con 
+Avail 
+Damage
+Ammo 
+BodMin 
+Shots 
+ROF 
+Rel 
+Range 
+Cost 
+Source
