@@ -9,7 +9,7 @@ KA;F-253;Flamethrower;HVY;-2;N;R;2d10;10;1;ST;50m;1500;CP20
 Barrett-Arasaka;20mm;HVY;+0;N;R;4d10@;(20mm)(B4);10;1;VR;450m;2000;CP20
 S-Arasaka;Nova;Photon;HVY;+4;N;R;4d10;(laser);1;1;UR;500m;50,000;SW
 Enfield;25mm;Cockerill;HVY;+1;N;R;5d10+10@;(25mm);12;1;ST;1500m;7400;UK
-12.7mm/50.;Gatling;HVY;+0;N;R;6d10;(12.7)(B18);1000;100;ST;500m;6000;MM
+12.7mm/50. Gatling;HVY;+0;N;R;6d10;(12.7)(B18);1000;100;ST;500m;6000;MM
 Barrett-Arasaka;ET;20;HVY;+1;N;R;6d10@;(20;ET);10;1;VR;750m;3800;SOF2
 60mm;Light;Mortar;HVY;+0;N;P;8d10;(60mm),;5m;1;2;VR;1000m;750;HoB
 Colt-Mauser;M2X;HVY;+0;N;R;8d10;(20mm);8;1;ST;600m;3050;Chr2

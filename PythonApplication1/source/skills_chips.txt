@@ -1,0 +1,93 @@
+Brawling / Hand To Hand_no
+Melee_yes
+Fencing_yes
+Archery_yes
+Gunnery_yes
+Handgun_yes
+Heavy Weapons_yes
+Rifle_yes
+Submachinegun_yes
+Awarness / Notice_no
+Hide / Evade_no
+Lipreading_no
+Shadow / Track_no
+Surveillance_no
+Driving_yes
+Motorcycle_yes
+Hvy. Machinery_yes
+Piloting_yes
+Pilot (Gyro)_yes
+Pilot (Fixed Wing)_yes
+Pilot (Dirigible)_yes
+Pilot (Vect. Thrust)_yes
+Power Armor_yes
+Subjock_yes
+Link (mecha)_no
+Athletics_yes
+Dance_yes
+Dodge & Escape_no
+Endurance_no
+Resistance_no
+Stealth_no
+Strength Feat_no
+Swimming_yes
+Animal Handling_no
+Bribery_no
+Interrogation_no
+Intimidate_no
+Oratory_no
+Streetwise_no
+Human Perception_no
+Interview_no
+Leadership_no
+Seduction_no
+Social Etiquette_yes
+Personal Grooming_no
+Persuasion & Fast Talk_no
+Wardrobe & Style_no
+Aero Tech_yes
+AV Tech_yes
+Basic Tech_yes
+Cryotank Operation_yes
+CyberTech_yes
+Demolitions_yes
+Disguise_yes
+Electronics_yes
+Elect. Security_yes
+First Aid_yes
+Forgery_yes
+Gyro Tech_yes
+Jury Rig_no
+Mecha Tech_yes
+Medical Tech_yes
+Paint or Draw_yes
+Photo & Film_yes
+Pharmaceuticals_yes
+Pick Lock_yes
+Pick Pocket_yes
+Weaponsmith_yes
+Inferface_no
+Perform_no
+Play Instrument_yes
+Ventriloquist_no
+Accounting_no
+Anthropology_no
+Biology_no
+Botany_no
+Chemistry_yes
+Coding_yes
+Composition_no
+Diagnose Illness_yes
+Education & Gen Know_yes
+Expert_no
+Gamble_yes
+Geology_yes
+History_yes
+Language_yes
+Library Search_no
+Mathematics_yes
+Market Trading_yes
+Physics_yes
+Teaching_no
+Wilderness Survival_yes
+Zoology_yes

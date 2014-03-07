@@ -1,7 +1,8 @@
-from Settings import Settings
-class item(object):
+from Filecontrol import Filecontrol
+class item(Filecontrol):
     """description of class"""
     def __init__(self):
+        super().__init__()
         self.__attributes = {}
         self.__actions = []
         self.__definitions = []

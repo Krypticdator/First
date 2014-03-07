@@ -13,6 +13,9 @@ class GUI_weapons(Category_UI):
         self.f3.destroy()
         self.populate_box(self.box_categories, self.contr.settings.wpn_classes)
         self.p.add(self.wpn_info_frame)
+        self.button_add.destroy()
+        button_add = ttk.Button(self.frame, text='add', command=self.add_to_inventory)
+        self.p.add(button_add)
 
         self.ava_l_pistols = []
         self.ava_m_pistols = []
@@ -27,6 +30,26 @@ class GUI_weapons(Category_UI):
         self.ava_o_rifles = []
         self.ava_machineguns = []
 
+        
+
+        
+       
+        self.add_category_items('Failed', self.contr.settings.failed_wpns)
+
+        self.box_list.bind('<<ListboxSelect>>', self.show_wpn_details)
+    
+    def define_wpn_available(self, wpn_list, target_list):
+
+        for wpn in wpn_list:
+            roll = self.contr.get_Wpn_availability()
+            diff = wpn.getAttribute("Avail_diff")
+            #print("roll: ", roll, "diff: ", diff)
+            if roll >= diff:
+                #print("INCLUDED")
+                wpn_name = wpn.getAttribute("Name")
+                target_list.append(wpn_name)    
+
+    def init_wpns_list(self):
         self.define_wpn_available(self.contr.settings.light_pistols, self.ava_l_pistols)
         self.define_wpn_available(self.contr.settings.medium_pistols, self.ava_m_pistols)
         self.define_wpn_available(self.contr.settings.heavy_pistols, self.ava_h_pistols)
@@ -52,21 +75,6 @@ class GUI_weapons(Category_UI):
         self.add_category_items('Sniper Rifles', self.ava_s_rifles)
         self.add_category_items('Other Rifles', self.ava_o_rifles)
         self.add_category_items('Machineguns', self.ava_machineguns)
-       
-        self.add_category_items('Failed', self.contr.settings.failed_wpns)
-
-        self.box_list.bind('<<ListboxSelect>>', self.show_wpn_details)
-    
-    def define_wpn_available(self, wpn_list, target_list):
-
-        for wpn in wpn_list:
-            roll = self.contr.get_Wpn_availability()
-            diff = wpn.getAttribute("Avail_diff")
-            #print("roll: ", roll, "diff: ", diff)
-            if roll >= diff:
-                #print("INCLUDED")
-                wpn_name = wpn.getAttribute("Name")
-                target_list.append(wpn_name)    
 
     def show_wpn_details(self, *args):
         self.wpn_info.show_wpn_details(self.box_list)
@@ -83,4 +91,21 @@ class GUI_weapons(Category_UI):
             for item in list:
                 box.insert(END, item)
             box.selection_set(0)
+
+    def add_to_inventory(self, *args):
+        id = self.box_list.curselection()
+        luku = int(id[0])
+        text = self.box_list.get(luku)
+
+        wpn = self.contr.settings.get_weapon(text)
+        cost = wpn.getAttribute('Cost')
+        
+
+        self.contr.set_to_ability_list(self.name, text, cost)
+        #list = self.contr.get_from_ability_list(self.name)
+        #value = self.contr.get_char_skill(text)
+        value = self.contr.get_from_ability_list(self.name, text)
+
+        text = text + '\t\t\t\t|' + str(value) + '\n'
+        self.text_inventory.insert('end', text)
    

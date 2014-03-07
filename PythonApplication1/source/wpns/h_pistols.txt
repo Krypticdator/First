@@ -8,6 +8,6 @@ Nova 757 Cityhunter;P;+2;J;P;3d6;(11mm);18;2;ST;50m;480;BH
 Sidekick;P;+0;J;C;3d6;(11mm);8;2;ST;50m;350;PB
 Nova 338 Citygun;P;+1;J;P;3d6;(.338);7;3;VR;50m;460;Chr2
 Dai Lung Magnum;P;+1;J;E;3d6+1;(.357mag);10;2;UR;50m;60;SOF
-Baretta M20-F;P;+1;J;C;3d6+3;15;3;VR;50m;750;P1
+Baretta M20-F;P;+1;J;C;3d6+3;(unkown);15;3;VR;50m;750;P1
 S&W Handcannon;P;+0;J/L;P;4d6;(.44 Mag);6;2;UR;50m;850;SOF2
-Tsunami Raimei Ramjet;P;+2;L;P;5d6;to;7d6+1*(10RJ);6;2;VR;100m;1100;SOF2
+Tsunami Raimei Ramjet;P;+2;L;P;5d6 to 7d6+1;(10RJ);6;2;VR;100m;1100;SOF2

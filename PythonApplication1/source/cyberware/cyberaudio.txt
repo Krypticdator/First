@@ -1,0 +1,3 @@
+on_cyberaudio_body_Cyberaudio_M_Basic hearing module (6 option spaces)_500_2d6_CP20
+off_cyberaudio_body_Spectrum_Cyberaudio_MA_Early_model._-1_balance,_+1/+2_Awareness_650+_3d6-2+_Chr3
+off_cyberaudio_body_Soviet_Cyberaudio_M_Only_2_option_spaces,_50%_chance_of_-1_ATTR_100_2-3d6_Chr4

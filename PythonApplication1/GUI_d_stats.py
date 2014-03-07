@@ -86,4 +86,4 @@ class GUI_d_stats:
         self.stun_var.set(self.contr.getChar_stat("Stun"))
         self.sd_var.set(self.contr.getChar_stat("SD"))
         self.res_var.set(self.contr.getChar_stat("Res"))
-        pass
+        

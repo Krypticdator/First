@@ -1,0 +1,35 @@
+off_Neuralware_body_Advanced Processor (CIA)_M_INTx2 chips of +8 skill, -1_INT after 24 hrs, diff 35_2000_1d6_RM
+on_Neuralware_body_Kerenzikov Boosterware_N_Adds +1 to Initiative for every level up to +2_500_1d6/2d6_CP20
+on_Neuralware_body_Speedware (Sandevistan)_N_Adds +3 to Initiative for 5 turns_1600_1d6/2_CP20
+off_Neuralware_body_Boostmaster_N_+1 REF with both types of boosterware_650_1d6/2_SOF
+off_Neuralware_body_Ubermensch Speedware_N_Adds +2 to Initiative for 5 turns_1600_1d6/2_ET
+on_Neuralware_body_Tactile Boost_N_Increased sensitivity. +2 to touch Awareness_100_2_CP20
+off_Neuralware_body_Tactile Boost Linkage_N_Links Tactile Boost to Sexual Implant (addictive)_150_0_Chr2
+on_Neuralware_body_Olfactory Boost_N_+2 Awareness/track via smell. Locate scent 50%_100_2_CP20
+off_Neuralware_body_Taste Boost_M_Heightened sense of taste_100_2_Chr4
+on_Neuralware_body_Pain Editor_N_Allows Endurance checks at 2 diff levels lower_200_2d6_CP20
+off_Neuralware_body_Ubermensch Pain Editor_N_As Pain Editor, but only works 75% of the time_200_2d6_ET
+on_Neuralware_body_Cybermodem Link_N_Allows direct connection to a cybermodem_100_1_CP20
+on_Neuralware_body_Vehicle Link_N_+2 to direct cybercontrolled vehicle operation_100_3_CP20
+on_Neuralware_body_Smartgun Link_N_+2 to Smartgun attacks_100_2_CP20
+on_Neuralware_body_Machine/Tech Link_N_Allows control of autofactories, & machines_100_2_CP20
+on_Neuralware_body_DataTerm Link_N_Allows downloading from DataTerms_100_2_CP20
+off_Neuralware_body_Universal Link_N_Combined linkage_400_4_I1.3
+on_Neuralware_body_Interface Plugs_M_Allows direct connection to smartguns, etc._200_1d6_CP20
+off_Neuralware_body_Mag-Duct Spots_N_As interface plugs, but only a +1 bonus_220_1d6/2_Chr1
+off_Neuralware_body_LiveWires_M_Prehensile interface cables_400/200_2d6_Chr3
+off_Neuralware_body_Model 100 Plugs_MA_+2 vs_Black Ice, -2 for anything else_100_2d6_Chr3
+off_Neuralware_body_Subdermal Smartgun Link_M_Weapon only version of_Mag-Duct Spots (+1)_220_1d6/2_UK
+on_Neuralware_body_Chipware Socket_N_Holds 10 chips. Can "run" number of chips =INT_200_1d6/2_CP20
+off_Neuralware_body_ChipLok_-_Locks chips in place_150_-_Chr4
+off_Neuralware_body_Braindance Adaptor_N_Allows chipware socket to run Braindance_100_0_I2.1
+off_Neuralware_body_Super Compact Braindance_CR_Braindance recorder that fits on back of head_15,000_2d6_Chr3
+off_Neuralware_body_Braindance Plugs_M_Allows connection to Braindance Recorder_200_1d6_RB
+off_Neuralware_body_Pacemaker Coprocessor_N_Restarts heart when attacked by ICE_150_2_Chr3
+off_Neuralware_body_Cyber-Detection Computer_M_Reconnaissance/Detection device, need M/T link_3000_1d6+3_Chr4
+off_Neuralware_body_Echolocation System_N_Can see in complete darkness, -1 Awareness_800_1d6/2_Chr4
+off_Neuralware_body_Lockdown_N_Uses cyberaudio to locate snipers_300_1d6_Chr4
+off_Neuralware_body_Neural ULF Transceiver_N_Send and receive voice/data. Range 15km/unlim_200_1d6/2_SF
+off_Neuralware_body_Positronic Enhancer_MA_+2 to INT, 10% chance of overload and fits_2000_1d6_I1.3
+off_Neuralware_body_Wirehead Unit_M_Stimulates the pleasure centres of the brain_1500_0_I2.1
+off_Neuralware_body_Feintware_M_Slows life signs for 1-6 hrs, 20+ Medtech to tell_1000_2d6_RM

@@ -1,0 +1,452 @@
+<armors>
+	<armor>
+		<description />
+		<cost>50</cost>
+		<brand>heavy leather</brand>
+		<name>jacket</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm>4</left_arm>
+			<right_shlder>4</right_shlder>
+			<right_arm>4</right_arm>
+			<left_shlder>4</left_shlder>
+			<right_hand />
+			<thighs />
+			<head />
+			<left_hand />
+			<vitals>4</vitals>
+			<chest>4</chest>
+			<left_leg />
+			<stomach>4</stomach>
+			<right_leg />
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>50</cost>
+		<brand>heavy leather</brand>
+		<name>pants</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm />
+			<right_shlder />
+			<right_arm />
+			<left_shlder />
+			<right_hand />
+			<thighs>4</thighs>
+			<head />
+			<left_hand />
+			<vitals />
+			<chest />
+			<left_leg>4</left_leg>
+			<stomach />
+			<right_leg>4</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>60</cost>
+		<brand>heavy leather</brand>
+		<name>miniskirt/dress</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm />
+			<right_shlder>4</right_shlder>
+			<right_arm />
+			<left_shlder>4</left_shlder>
+			<right_hand />
+			<thighs>4</thighs>
+			<head />
+			<left_hand />
+			<vitals>4</vitals>
+			<chest>4</chest>
+			<left_leg />
+			<stomach>4</stomach>
+			<right_leg />
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>80</cost>
+		<brand>fibremesh ballistic cloth fashionware</brand>
+		<name>shirt/top</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm>8</left_arm>
+			<right_shlder>8</right_shlder>
+			<right_arm>8</right_arm>
+			<left_shlder>8</left_shlder>
+			<right_hand />
+			<thighs />
+			<head />
+			<left_hand />
+			<vitals>8</vitals>
+			<chest>8</chest>
+			<left_leg />
+			<stomach>8</stomach>
+			<right_leg />
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>90</cost>
+		<brand>fibremesh ballistic cloth fashionware</brand>
+		<name>pants/skirt</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm />
+			<right_shlder />
+			<right_arm />
+			<left_shlder />
+			<right_hand />
+			<thighs>8</thighs>
+			<head />
+			<left_hand />
+			<vitals />
+			<chest />
+			<left_leg>8</left_leg>
+			<stomach />
+			<right_leg>8</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>50</cost>
+		<brand>fibremesh ballistic cloth fashionware</brand>
+		<name>miniskirt/dress</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm />
+			<right_shlder />
+			<right_arm />
+			<left_shlder />
+			<right_hand />
+			<thighs />
+			<head />
+			<left_hand />
+			<vitals>8</vitals>
+			<chest>8</chest>
+			<left_leg />
+			<stomach>8</stomach>
+			<right_leg />
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>90</cost>
+		<brand>fibremesh ballistic cloth fashionware</brand>
+		<name>pantyhose</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm />
+			<right_shlder />
+			<right_arm />
+			<left_shlder />
+			<right_hand />
+			<thighs>8</thighs>
+			<head />
+			<left_hand />
+			<vitals>0</vitals>
+			<chest>0</chest>
+			<left_leg>8</left_leg>
+			<stomach>0</stomach>
+			<right_leg>8</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>120</cost>
+		<brand>fibremesh ballistic cloth fashionware</brand>
+		<name>trenchcoat</name>
+		<type>soft</type>
+		<ev>1</ev>
+		<sp>
+			<right_foot />
+			<left_foot />
+			<left_arm>10</left_arm>
+			<right_shlder>10</right_shlder>
+			<right_arm>10</right_arm>
+			<left_shlder>10</left_shlder>
+			<right_hand />
+			<thighs>10</thighs>
+			<head />
+			<left_hand />
+			<vitals>10</vitals>
+			<chest>10</chest>
+			<left_leg>10</left_leg>
+			<stomach>10</stomach>
+			<right_leg>10</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>165</cost>
+		<brand>fibremesh ballistic cloth fashionware</brand>
+		<name>body/surf/wetsuit</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot>10</right_foot>
+			<left_foot>10</left_foot>
+			<left_arm>10</left_arm>
+			<right_shlder>10</right_shlder>
+			<right_arm>10</right_arm>
+			<left_shlder>10</left_shlder>
+			<right_hand>10</right_hand>
+			<thighs>10</thighs>
+			<head>10</head>
+			<left_hand>10</left_hand>
+			<vitals>10</vitals>
+			<chest>10</chest>
+			<left_leg>10</left_leg>
+			<stomach>10</stomach>
+			<right_leg>10</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>90</cost>
+		<brand>kevlar</brand>
+		<name>vest</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>0</left_arm>
+			<right_shlder>10</right_shlder>
+			<right_arm>0</right_arm>
+			<left_shlder>10</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>0</head>
+			<left_hand>0</left_hand>
+			<vitals>10</vitals>
+			<chest>10</chest>
+			<left_leg>0</left_leg>
+			<stomach>10</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>150</cost>
+		<brand>kevlar</brand>
+		<name>light jacket</name>
+		<type>soft</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>14</left_arm>
+			<right_shlder>14</right_shlder>
+			<right_arm>14</right_arm>
+			<left_shlder>14</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>0</head>
+			<left_hand>0</left_hand>
+			<vitals>14</vitals>
+			<chest>14</chest>
+			<left_leg>0</left_leg>
+			<stomach>14</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>200</cost>
+		<brand>kevlar</brand>
+		<name>med jacket</name>
+		<type>soft</type>
+		<ev>1</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>18</left_arm>
+			<right_shlder>18</right_shlder>
+			<right_arm>18</right_arm>
+			<left_shlder>18</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>0</head>
+			<left_hand>0</left_hand>
+			<vitals>18</vitals>
+			<chest>18</chest>
+			<left_leg>0</left_leg>
+			<stomach>18</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>20</cost>
+		<brand>helmet</brand>
+		<name>steel</name>
+		<type>hard</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>0</left_arm>
+			<right_shlder>0</right_shlder>
+			<right_arm>0</right_arm>
+			<left_shlder>0</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>14</head>
+			<left_hand>0</left_hand>
+			<vitals>0</vitals>
+			<chest>0</chest>
+			<left_leg>0</left_leg>
+			<stomach>0</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>100</cost>
+		<brand>helmet</brand>
+		<name>nylon</name>
+		<type>hard</type>
+		<ev>0</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>0</left_arm>
+			<right_shlder>0</right_shlder>
+			<right_arm>0</right_arm>
+			<left_shlder>0</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>20</head>
+			<left_hand>0</left_hand>
+			<vitals>0</vitals>
+			<chest>0</chest>
+			<left_leg>0</left_leg>
+			<stomach>0</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>200</cost>
+		<brand>flack</brand>
+		<name>vest</name>
+		<type>hard</type>
+		<ev>1</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>0</left_arm>
+			<right_shlder>20</right_shlder>
+			<right_arm>0</right_arm>
+			<left_shlder>20</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>0</head>
+			<left_hand>0</left_hand>
+			<vitals>20</vitals>
+			<chest>20</chest>
+			<left_leg>0</left_leg>
+			<stomach>20</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>200</cost>
+		<brand>flack</brand>
+		<name>pants</name>
+		<type>hard</type>
+		<ev>1</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>0</left_arm>
+			<right_shlder>0</right_shlder>
+			<right_arm>0</right_arm>
+			<left_shlder>0</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>20</thighs>
+			<head>0</head>
+			<left_hand>0</left_hand>
+			<vitals>0</vitals>
+			<chest>0</chest>
+			<left_leg>20</left_leg>
+			<stomach>0</stomach>
+			<right_leg>20</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>250</cost>
+		<brand>doorgunner's vest</brand>
+		<name>torso</name>
+		<type>hard</type>
+		<ev>3</ev>
+		<sp>
+			<right_foot>0</right_foot>
+			<left_foot>0</left_foot>
+			<left_arm>0</left_arm>
+			<right_shlder>25</right_shlder>
+			<right_arm>0</right_arm>
+			<left_shlder>25</left_shlder>
+			<right_hand>0</right_hand>
+			<thighs>0</thighs>
+			<head>0</head>
+			<left_hand>0</left_hand>
+			<vitals>25</vitals>
+			<chest>25</chest>
+			<left_leg>0</left_leg>
+			<stomach>25</stomach>
+			<right_leg>0</right_leg>
+		</sp>
+	</armor>
+	<armor>
+		<description />
+		<cost>600</cost>
+		<brand>metalgear body armor</brand>
+		<name>whole body</name>
+		<type>hard</type>
+		<ev>2</ev>
+		<sp>
+			<right_foot>25</right_foot>
+			<left_foot>25</left_foot>
+			<left_arm>25</left_arm>
+			<right_shlder>25</right_shlder>
+			<right_arm>25</right_arm>
+			<left_shlder>25</left_shlder>
+			<right_hand>25</right_hand>
+			<thighs>25</thighs>
+			<head>25</head>
+			<left_hand>25</left_hand>
+			<vitals>25</vitals>
+			<chest>25</chest>
+			<left_leg>25</left_leg>
+			<stomach>25</stomach>
+			<right_leg>25</right_leg>
+		</sp>
+	</armor>
+</armors>

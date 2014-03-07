@@ -16,25 +16,69 @@ from inherited import inherited
 from inheritable import inheritable
 from GUI_factory import Category_UI
 from GUI_Lifepath import GUI_Lifepath
+from GUI_item_creator import GUI_item_creator
+from xml_control import xml_control
+from cp20ex import cp20ex
+from Armor import Effective_armor
+from Armor import Armor
 
 
+class start:
+    def __init__(self):
+        self.root = Tk()
+        self.root.title('program')
+        self.root.option_add('*tearOff', FALSE)
 
-#l = Lifepath()
-'''root = Tk()
-x=GUI_Lifepath(root, 'none')
-root.mainloop()'''
+        menubar = Menu(self.root)
+        self.root['menu'] = menubar
+
+        menu_file = Menu(menubar)
+        menu_edit = Menu(menubar)
+        menubar.add_cascade(menu=menu_file, label='File')
+        menubar.add_cascade(menu=menu_edit, label='Tools')
+        menu_file.add_command(label='New Character', command=self.newChar)
+        menu_edit.add_command(label='Item creator', command = self.newItem)
+        menu_edit.add_command(label='Probabilities', command = self.probabs)
+        self.root.mainloop()
+
+        file = xml_control()
+        
+        
+
+    def newChar(self):
+        window = Toplevel(self.root)
+        self.layout = Character_Layout(window)
+        #print(self.layout.contr.datasets)
+    def newItem(self):
+        window = Toplevel(self.root)
+        toolswindow = GUI_item_creator(window)
+    def probabs(self):
+        probs = GUI_math_analysis()
+        window = Toplevel(self.root)
+        probs.assign('none', window, self.root)
+
+x = start()
+cp= cp20ex()
+contr = Controller()
+a1 = contr.settings.armors[0]
+a2 = contr.settings.armors[1]
+a3 = contr.settings.armors[2]
+e = Effective_armor()
+
+
+    
 
 #x = Character()
 #y = Process()
 #z = Fuzion()
 #b = Bar()
-layout = Character_Layout()
+#layout = Character_Layout()
 
 #b.Operate_hour()
 
 #x = Character()
 #y = Character()
-p = Process_2()
+#p = Process_2()
 #i = item()
 #s = Settings()
 '''contr = Controller()

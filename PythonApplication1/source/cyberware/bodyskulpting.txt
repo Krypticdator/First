@@ -1,0 +1,9 @@
+on_bodyskulpting_body_Appearance Change - Minor_M_Look sort of like you wanted to, Notice 15+_1200_-_CP20
+on_bodyskulpting_body_Appearance Change - Major_M_Look very much like you wanted, Notice_20+_2400_-_CP20
+on_bodyskulpting_body_Appearance Change - Expert_M_Look exactly like you wanted, Notice 25+_3600_-_CP20
+on_bodyskulpting_body_Appearance Change - Top_MA_Top of the line, Notice 30+ to spot the sculpt_5000_-_CP20
+on_bodyskulpting_body_Increased Attractiveness_M_+1 ATTR (maximum ATTR is 10)_600_-_CP20
+off_bodyskulpting_body_Sex_Change_-_Basic_MA_1_month_therapy,_1_week_hospital,_diff_20_to_spot_4200_0_to_1d6_WGF
+off_bodyskulpting_body_Sex_Change_-_Advanced_CR_Each_+5_diff_to_spot_doubles_time_and_cost_x2/+5_diff_0_to_1d6_WGF
+off_bodyskulpting_body_Ability_To_Bear_Children_MA_Includes_psychological_counselling_+5000_0_WGF
+off_bodyskulpting_body_Ability_To_Father_Children_MA_Includes_psychological_counselling_+1000_0_WGF

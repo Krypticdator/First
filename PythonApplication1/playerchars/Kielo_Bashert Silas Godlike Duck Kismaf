@@ -1,0 +1,229 @@
+<Character>
+	<info>
+		<player>Kielo</player>
+		<first_name>Bashert</first_name>
+		<second_name>Silas</second_name>
+		<last_name>Kismaf</last_name>
+		<alias>Godlike Duck</alias>
+		<age>25</age>
+	</info>
+	<family>
+		<family_rank>Rich</family_rank>
+		<parents>Both Parents</parents>
+		<parent_status>Something has happened to one or both parents.</parent_status>
+		<parent_event>Your parent(s) were murdered</parent_event>
+		<family_status>Family status in danger</family_status>
+		<family_event>Family vanished. You are the only remaining member</family_event>
+		<childhood_enviroment>Grew up working for parents from very young age.</childhood_enviroment>
+		<childhood_trauma_fortune>You were a popular kid</childhood_trauma_fortune>
+		<family_contact>years no contact with any family members.</family_contact>
+		<siblings />
+		<sibling age="0" gender="none" relation="none">you are the only child</sibling>
+	</family>
+	<personality>
+		<prime_motivation>Pleasure/Excitement</prime_motivation>
+		<most_valued_person>A pet</most_valued_person>
+		<most_valued_posession>recording</most_valued_posession>
+		<feels_about_people>People are sheep, born to be led</feels_about_people>
+		<inmode>Ponderous</inmode>
+		<exmode>Assured/Stylish</exmode>
+		<quirk>Religious</quirk>
+		<quirk>Artist</quirk>
+		<quirk>Musical</quirk>
+		<quirk>Poet</quirk>
+		<quirk>Eccentric</quirk>
+		<quirk>Seducer</quirk>
+		<quirk>Passionate</quirk>
+		<phobia>Kakarrophiaphobia (failure)</phobia>
+		<hair>Striped</hair>
+		<hair>Spiked</hair>
+		<hair>Long, Straight</hair>
+		<clothes>Lingerie/Nude</clothes>
+		<clothes>Leathers</clothes>
+		<clothes>Ethnic/Historical</clothes>
+		<clothes>Bag Lady Chic</clothes>
+		<clothes>Urban Flash/Yakuza</clothes>
+		<clothes>Tribal Dress</clothes>
+		<affection>Fingerless Gloves</affection>
+		<affection>Tattoos</affection>
+		<affection>Heels</affection>
+		<affection>Earrings</affection>
+		<affection>Androgyne Make-up</affection>
+		<affection>Jewellery</affection>
+		<affection>Skin Tints</affection>
+		<affection>Weird Lenses</affection>
+		<affection>Long Fingernails</affection>
+		<affection>Hats/Caps</affection>
+		<affection>Make-up/Face Paint</affection>
+		<affection>Gloves/Boots</affection>
+	</personality>
+	<skills>
+		<skill type="Resistance">3</skill>
+		<skill type="Lipreading">0</skill>
+		<skill type="Shadow / Track">0</skill>
+		<skill type="Pilot (Dirigible)">0</skill>
+		<skill type="History">0</skill>
+		<skill type="Awarness / Notice">2</skill>
+		<skill type="Elect. Security">0</skill>
+		<skill type="Electronics">0</skill>
+		<skill type="Driving">0</skill>
+		<skill type="Hide / Evade">0</skill>
+		<skill type="Composition">0</skill>
+		<skill type="Disguise">5</skill>
+		<skill type="Pick Lock">0</skill>
+		<skill type="Fencing">5</skill>
+		<skill type="Biology">0</skill>
+		<skill type="Dance">4</skill>
+		<skill type="Jury Rig">0</skill>
+		<skill type="Zoology">0</skill>
+		<skill type="Interrogation">0</skill>
+		<skill type="Mecha Tech">0</skill>
+		<skill type="Personal Grooming">5</skill>
+		<skill type="Photo &amp; Film">0</skill>
+		<skill type="Strength Feat">0</skill>
+		<skill type="Diagnose Illness">0</skill>
+		<skill type="Physics">0</skill>
+		<skill type="Motorcycle">0</skill>
+		<skill type="Swimming">0</skill>
+		<skill type="Education &amp; Gen Know">0</skill>
+		<skill type="Gamble">0</skill>
+		<skill type="Chemistry">0</skill>
+		<skill type="Expert">0</skill>
+		<skill type="Persuasion &amp; Fast Talk">5</skill>
+		<skill type="Intimidate">0</skill>
+		<skill type="Language">0</skill>
+		<skill type="Rifle">0</skill>
+		<skill type="Cryotank Operation">0</skill>
+		<skill type="Piloting">0</skill>
+		<skill type="Geology">0</skill>
+		<skill type="Bribery">0</skill>
+		<skill type="Brawling / Hand To Hand">0</skill>
+		<skill type="Accounting">0</skill>
+		<skill type="Pick Pocket">0</skill>
+		<skill type="Play Instrument">0</skill>
+		<skill type="Power Armor">0</skill>
+		<skill type="Pilot (Fixed Wing)">0</skill>
+		<skill type="Gyro Tech">0</skill>
+		<skill type="Pharmaceuticals">0</skill>
+		<skill type="Seduction">6</skill>
+		<skill type="Library Search">0</skill>
+		<skill type="Teaching">2</skill>
+		<skill type="Hvy. Machinery">0</skill>
+		<skill type="CyberTech">0</skill>
+		<skill type="Wilderness Survival">0</skill>
+		<skill type="Wardrobe &amp; Style">8</skill>
+		<skill type="Basic Tech">0</skill>
+		<skill type="Pilot (Vect. Thrust)">0</skill>
+		<skill type="Inferface">0</skill>
+		<skill type="Forgery">0</skill>
+		<skill type="Human Perception">6</skill>
+		<skill type="Interview">0</skill>
+		<skill type="Heavy Weapons">0</skill>
+		<skill type="Dodge &amp; Escape">4</skill>
+		<skill type="Perform">4</skill>
+		<skill type="First Aid">0</skill>
+		<skill type="Gunnery">0</skill>
+		<skill type="Paint or Draw">1</skill>
+		<skill type="Social Etiquette">2</skill>
+		<skill type="Melee">0</skill>
+		<skill type="Coding">0</skill>
+		<skill type="Link (mecha)">0</skill>
+		<skill type="Streetwise">3</skill>
+		<skill type="Botany">0</skill>
+		<skill type="Anthropology">0</skill>
+		<skill type="Market Trading">0</skill>
+		<skill type="Demolitions">0</skill>
+		<skill type="Leadership">0</skill>
+		<skill type="AV Tech">0</skill>
+		<skill type="Weaponsmith">0</skill>
+		<skill type="Endurance">0</skill>
+		<skill type="Handgun">0</skill>
+		<skill type="Surveillance">0</skill>
+		<skill type="Archery">0</skill>
+		<skill type="Ventriloquist">0</skill>
+		<skill type="Medical Tech">0</skill>
+		<skill type="Pilot (Gyro)">0</skill>
+		<skill type="Mathematics">0</skill>
+		<skill type="Submachinegun">0</skill>
+		<skill type="Athletics">0</skill>
+		<skill type="Subjock">0</skill>
+		<skill type="Stealth">0</skill>
+		<skill type="Animal Handling">0</skill>
+		<skill type="Oratory">1</skill>
+		<skill type="Aero Tech">0</skill>
+	</skills>
+	<attributes>
+		<attribute type="Will">8</attribute>
+		<attribute type="Hum">80</attribute>
+		<attribute type="Fun">0</attribute>
+		<attribute type="Run">10</attribute>
+		<attribute type="Str">3</attribute>
+		<attribute type="Sprint">15</attribute>
+		<attribute type="Int">6</attribute>
+		<attribute type="Tech">4</attribute>
+		<attribute type="Hits">20</attribute>
+		<attribute type="Pre">8</attribute>
+		<attribute type="SD">8</attribute>
+		<attribute type="Con">4</attribute>
+		<attribute type="Move">5</attribute>
+		<attribute type="Res">24</attribute>
+		<attribute type="Luck">6.5</attribute>
+		<attribute type="Swim">5</attribute>
+		<attribute type="Dex">6</attribute>
+		<attribute type="Stun">20</attribute>
+		<attribute type="Hunger">0</attribute>
+		<attribute type="End">8</attribute>
+		<attribute type="Body">4</attribute>
+		<attribute type="Rec">3.5</attribute>
+		<attribute type="Ref">7</attribute>
+		<attribute type="Tiredness">0</attribute>
+		<attribute type="Leap">5</attribute>
+	</attributes>
+	<perks />
+	<talents>
+		<talent type="Beatiful / Handsome">1</talent>
+		<talent type="Charismatic Leadership">1</talent>
+		<talent type="Ambidexterity">1</talent>
+	</talents>
+	<complications>
+		<complication frequency="10" importance="2" intensity="10" type="Addiction">10.0</complication>
+		<complication frequency="15" importance="5" intensity="10" type="Intolerance">5.0</complication>
+		<complication frequency="15" importance="2" intensity="5" type="Lecherous">10.0</complication>
+	</complications>
+	<cyberwears>
+		<cyberwear name="Processor">3.0<option name="Chipware Socket">2.0</option>
+		</cyberwear>
+		<cyberwear name="APTR Reflex Chips">0</cyberwear>
+		<cyberwear name="MRAM Memory Chips">0</cyberwear>
+		<cyberwear name="Cyberoptic">4.0
+			<option name="Color Shift">0.5</option>
+			<option name="Ultraviolet">1.0</option>
+			<option name="Image Enhancement">1.0</option>
+		</cyberwear>
+	</cyberwears>
+	<items>
+		<item type="weapon">LeRoi Maxi-10</item>
+		<item type="armor">fibremesh ballistic cloth fashionware shirt/top</item>
+		<item type="armor">fibremesh ballistic cloth fashionware pants/skirt</item>
+		<item type="item">Fibremesh Fashionware (Sp8&#8212; You Pick The Type)</item>
+		<item type="item">Agent (Basic)</item>
+		<item type="item">Kibblepacks (3 Total, Choose Type)</item>
+		<item type="item">Light Handgun (Choose Type)</item>
+		<item type="item">Datachips (3 Total; You Decide What&#8217;s In &#8216;Em)</item>
+		<item type="item">Hand Taser</item>
+		<item type="item">Monoblade (Choose Type)</item>
+	</items>
+	<lifepath>
+		<event age="15" lucky_type="boostergang" type="lucky" />
+		<event age="16" friend_type="Like a kid sister/brother to you" type="friend" />
+		<event age="17" lucky_type="nomads" type="lucky" />
+		<event age="18" betrayel_type="you were betrayed by a close friend in either romance or career (you choose)." disaster_type="betrayel" type="disaster" />
+		<event age="19" type="Nothing Happened That Year" />
+		<event age="20" love_type="happy" type="love" />
+		<event age="21" cause="Turned down other's offer of job or romantic involvement" enemy_type="Ex lover" reaction="Ignore the scum" relation="You hate them" resources="An entire Altcult" type="enemy" />
+		<event age="22" type="Nothing Happened That Year" />
+		<event age="23" love_type="tragic love" mutual_feelings="No feeling's either way; it's over" tragic_type="Lover died in accident" type="love" />
+		<event age="24" love_type="with problems" problem="Your lover's friends/family hate you" type="love" />
+		<event age="25" type="Nothing Happened That Year" />
+	</lifepath>
+</Character>

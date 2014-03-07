@@ -6,7 +6,7 @@ Set Arasaka WSE Kajiya;RIF;+1;N;R;9d6+3;(7.62 ET)(B5);5;1;VR;500m;1000;SW
 Arasaka WSSX;RIF;+3/5;N;R;4d6x1d3*;(20mm FF);13;1;VR;600m;3600;SF
 Barrett-Arasaka 20mm;HVY;+0;N;R;4d10@;(20mm)(B4);10;1;VR;450m;2000;CP20
 Arasaka Sniper Rifle;HVY;0/+2;N;R;4d10@;(20mm)(B4);10;1;VR;450m;2800;PAC
-Barrett M-90 Sniper Rifle;RIF;+3;N;R;6d10;(12.7 BMG)(B6)10;1;VR;1000m;1500;HoB
+Barrett M-90 Sniper Rifle;RIF;+3;N;R;6d10;(12.7 BMG)(B6);10;1;VR;1000m;1500;HoB
 Nomad "Long Rifle";RIF;+1;N;P;7d10;(15 BMG)(B7);9;1;ST;900m;3000;NEO
 Remington Gyro-Rifle;RIF;+2;N;P;7d6API;(18mm G);6;1;ST;600m;1000;P&S
 Barrett-Arasaka WSSE;RIF;+1;N;R;8d10+3;(.50 ET)(B9);10;1;VR;1000m;2500;SW

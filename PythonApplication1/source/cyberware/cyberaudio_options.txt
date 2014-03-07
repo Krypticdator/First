@@ -1,0 +1,18 @@
+on_cyberaudio options_cyberaudio_Amplified Hearing_N_+1 Awareness using auditory cues. SWx2_200_1_CP20
+on_cyberaudio options_cyberaudio_Radio Link_N_Radio communication up to 1 mile_100_1_CP20
+on_cyberaudio options_cyberaudio_Phone Splice_N_Full cellular communication (large city only)_150_1_CP20
+on_cyberaudio options_cyberaudio_Scrambler_N_Cannot understand with out a descrambler_100_.5_CP20
+on_cyberaudio options_cyberaudio_Bug Detector_N_Detects taps, bugs up to 3m. 60% effective_200_.5_CP20
+on_cyberaudio options_cyberaudio_Voice Stress Analyzer_N_+2 to Human Perception, Interrogation skills_200_1_CP20
+on_cyberaudio options_cyberaudio_Sound Editing_N_+2 Awareness to overhear specific conversation_150_.5_CP20
+on_cyberaudio options_cyberaudio_Enhanced Hearing Range_N_Ability to hear super & subsonic ranges. SWx2_150_2_CP20
+on_cyberaudio options_cyberaudio_Wearman_N_Stereo music system_100_.5_CP20
+on_cyberaudio options_cyberaudio_Radar Detector_N_Beeps if radar encountered, fixes source (40%)_150_.5_CP20
+on_cyberaudio options_cyberaudio_Homing Tracer_N_Can follow tracer up to 1Km distant_200_.5_CP20
+on_cyberaudio options_cyberaudio_Tight Beam Radio Link_N_Allows untappable radio com within line of sight_200_1_CP20
+on_cyberaudio options_cyberaudio_Wide Band Radio Scanner_N_Picks up transmissions on all bands_100_2_CP20
+on_cyberaudio options_cyberaudio_Micro-recorder Link_N_Transmits to recorder in body or via plugs_100_.5_CP20
+on_cyberaudio options_cyberaudio_Digital Recording Link_N_Transmits sounds to a digital recorder_100_.5_CP20
+on_cyberaudio options_cyberaudio_Level Damper_N_Automatic noise compensation. -25% from SW_300_.5_CP20
+off_cyberaudio options_cyberaudio_Fax+ 1000 Alert_N_Alerts user to incoming faxes_100_0_Chr3
+off_cyberaudio options_cyberaudio_ShareChecker™_Link_N_Share_information_using_T2,_screen_or_audio_100_.5_ET

@@ -22,14 +22,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Armor.py" />
     <Compile Include="Asset.py" />
     <Compile Include="Character.py" />
     <Compile Include="Character_layout.py" />
     <Compile Include="class1.py" />
+    <Compile Include="cp20ex.py" />
+    <Compile Include="cyberitem.py" />
+    <Compile Include="Filecontrol.py" />
+    <Compile Include="gamesession\Character.py" />
+    <Compile Include="gamesession\GameObject.py" />
     <Compile Include="GroupLayoutDemo.py" />
     <Compile Include="GUI_armor.py" />
     <Compile Include="GUI_complications.py" />
+    <Compile Include="GUI_cyber.py" />
     <Compile Include="GUI_factory.py" />
+    <Compile Include="GUI_family.py" />
+    <Compile Include="GUI_header.py" />
+    <Compile Include="GUI_inspect_wpns.py" />
+    <Compile Include="GUI_items_menu.py" />
+    <Compile Include="GUI_item_creator.py" />
     <Compile Include="GUI_Lifepath.py" />
     <Compile Include="GUI_sub_per.py" />
     <Compile Include="GUI_items.py" />
@@ -42,6 +54,7 @@
     <Compile Include="inherited.py" />
     <Compile Include="item.py" />
     <Compile Include="Lifepath.py" />
+    <Compile Include="log.py" />
     <Compile Include="Machine.py" />
     <Compile Include="Process_2.py" />
     <Compile Include="Sector.py" />
@@ -60,16 +73,23 @@
     <Compile Include="Settings.py" />
     <Compile Include="Tools.py" />
     <Compile Include="Weapon.py" />
+    <Compile Include="xml_control.py" />
     <Compile Include="xml_file.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lifepath\" />
     <Folder Include="data\" />
     <Folder Include="lifepath\family\" />
+    <Folder Include="gamesession\" />
+    <Folder Include="npcs\" />
+    <Folder Include="playerchars\" />
     <Folder Include="source" />
+    <Folder Include="source\armor\" />
+    <Folder Include="source\cyberware\" />
     <Folder Include="source\wpns" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Filecontrol.txt" />
     <Content Include="lifepath\family\childhood_enviroment.txt" />
     <Content Include="lifepath\family\childhood_trauma.txt" />
     <Content Include="lifepath\family\family_contact.txt" />
@@ -99,12 +119,39 @@
     <Content Include="lifepath\lp_lucky.txt" />
     <Content Include="source\.project" />
     <Content Include="source\affections.txt" />
+    <Content Include="source\armor\hitlocations.txt" />
+    <Content Include="source\armor\proportion_rules.txt" />
     <Content Include="source\attributes.txt" />
     <Content Include="source\attributes_skills.txt" />
     <Content Include="source\clothes.txt" />
     <Content Include="source\complications.txt" />
     <Content Include="source\complications_descriptions.txt" />
     <Content Include="source\complication_categories.txt" />
+    <Content Include="source\cyberware\bioware.txt" />
+    <Content Include="source\cyberware\bodyplating.txt" />
+    <Content Include="source\cyberware\bodyskulpting.txt" />
+    <Content Include="source\cyberware\bodyweapons.txt" />
+    <Content Include="source\cyberware\buildins.txt" />
+    <Content Include="source\cyberware\chipware.txt" />
+    <Content Include="source\cyberware\cyberaudio.txt" />
+    <Content Include="source\cyberware\cyberaudio_options.txt" />
+    <Content Include="source\cyberware\cyberfeet.txt" />
+    <Content Include="source\cyberware\cyberhands.txt" />
+    <Content Include="source\cyberware\cyberlimbs.txt" />
+    <Content Include="source\cyberware\cyberlimb_options.txt" />
+    <Content Include="source\cyberware\cyberoptics.txt" />
+    <Content Include="source\cyberware\cyberoptics_options.txt" />
+    <Content Include="source\cyberware\cyberweapons.txt" />
+    <Content Include="source\cyberware\fashionware.txt" />
+    <Content Include="source\cyberware\fingers.txt" />
+    <Content Include="source\cyberware\implants.txt" />
+    <Content Include="source\cyberware\linearframes.txt" />
+    <Content Include="source\cyberware\long_descr.txt" />
+    <Content Include="source\cyberware\nanotech.txt" />
+    <Content Include="source\cyberware\neuralware.txt" />
+    <Content Include="source\cyberware\neuralware_req.txt" />
+    <Content Include="source\cyberware\voice.txt" />
+    <Content Include="source\derived_stats.txt" />
     <Content Include="source\descr_attries.txt" />
     <Content Include="source\disorders.txt" />
     <Content Include="source\exmode.txt" />
@@ -114,6 +161,7 @@
     <Content Include="source\hair.txt" />
     <Content Include="source\inmode.txt" />
     <Content Include="source\items.txt" />
+    <Content Include="source\items_descriptions.txt" />
     <Content Include="source\lastnames.txt" />
     <Content Include="source\last_nick_name.txt" />
     <Content Include="source\perks.txt" />
@@ -124,8 +172,11 @@
     <Content Include="source\quirks.txt" />
     <Content Include="source\skills.txt" />
     <Content Include="source\money.txt" />
+    <Content Include="source\skills_chips.txt" />
     <Content Include="source\skill_categories.txt" />
     <Content Include="source\skill_descriptions.txt" />
+    <Content Include="source\skill_diff.txt" />
+    <Content Include="source\starting_items.txt" />
     <Content Include="source\talents.txt" />
     <Content Include="source\talent_descriptions.txt" />
     <Content Include="source\valued_people.txt" />

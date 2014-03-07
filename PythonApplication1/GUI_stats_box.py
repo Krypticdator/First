@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from GUI_d_stats import GUI_d_stats
 from GUI_stat_info import GUI_stat_info
+from GUI_header import GUI_header
 
 class GUI_stats_box(object):
     """description of class"""  
@@ -11,17 +12,20 @@ class GUI_stats_box(object):
 
         self.stats_frame = ttk.Labelframe(master, text='Stats')
         
+        header = GUI_header(self.stats_frame,self.contr)
         self.d_stat = GUI_d_stats()
         self.d_stat_frame = self.d_stat.Assign(self.stats_frame, controller)
         self.stat_info = GUI_stat_info()
         self.stat_info_frame = self.stat_info.Assign(self.stats_frame, controller)
         self.stat_box = Stat_box(self.stats_frame, controller, self.stat_info, self.d_stat)
         
+        
         stat_box_frame = self.stat_box.frame
-        stat_box_frame.grid(column = 0, row = 0)
-        self.stat_info_frame.grid(column = 1, row = 0, rowspan=11, sticky=(N))
+        header.frame.grid(column=0, row=0)
+        stat_box_frame.grid(column = 0, row = 1)
+        self.stat_info_frame.grid(column = 1, row = 1, rowspan=11, sticky=(N))
 
-        self.d_stat_frame.grid(column = 4, row = 0, rowspan=11, sticky=(W, N))
+        self.d_stat_frame.grid(column = 4, row = 1, rowspan=11, sticky=(W, N))
 
         return self.stats_frame
 
@@ -39,6 +43,7 @@ class Stat_box:
         self.descr_text = ''
         self.info_box = info_box
         self.derived_stats = derived_stats
+        self.contr.datasets['stats']=self
         
 
         self.contr.settings.Read_file('source/attributes.txt', self.stats)
@@ -94,6 +99,7 @@ class Stat_box:
                self.contr.setChar_stat(stat, self.variables[stat].get()) 
                self.info_box.setText(self.contr.settings.attribute_descriptions[self.descr_text])
                self.derived_stats.update_stats()
+               self.contr.recalculate_points()
 
     def Attribute_rating(self, num):
         descr = ""

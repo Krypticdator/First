@@ -3,20 +3,22 @@ from tkinter import ttk
 from random import choice
 class GUI_per_sub():
     """description of class"""
-    def __init__(self, master, filepath, label_text='default', rows=10):
+    def __init__(self, master, filepath, label_text='default', rows=10, var_width=40, controller=object()):
         self.components = {}
         self.valuelist = []
         self.Read_file(filepath, self.valuelist)
         self.rows = rows
+        self.contr=controller
+        self.contr.datasets[label_text]=self
     
         self.topic=label_text
         self.var = StringVar()
         self.frame = ttk.Frame(master)
         p = ttk.Panedwindow(self.frame, orient=HORIZONTAL)
         label = ttk.Label(p, text=label_text, width = 33)
-        var_label = ttk.Label(p, textvariable=self.var, width = 40)
-        button_random = ttk.Button(p, text='Random', command=self.random_value)
-        button_choose = ttk.Button(p, text='Choose..', command=self.choose_value)
+        var_label = ttk.Label(p, textvariable=self.var, width = var_width)
+        self.button_random = ttk.Button(p, text='Random', command=self.random_value)
+        self.button_choose = ttk.Button(p, text='Choose..', command=self.choose_value)
         self.var.set('Undecided')
 
         p.add(label)
@@ -26,8 +28,8 @@ class GUI_per_sub():
         p.grid(column = 0, row = 0)
         label.grid(column = 0, row = 0, sticky=(W))
         var_label.grid(column = 1, row = 0, sticky=(W))
-        button_choose.grid(column = 2, row = 0)
-        button_random.grid(column = 3, row = 0)
+        self.button_choose.grid(column = 2, row = 0)
+        self.button_random.grid(column = 3, row = 0)
 
 
     def Read_file(self, filepath ,target):

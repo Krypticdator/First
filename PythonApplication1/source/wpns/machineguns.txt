@@ -1,5 +1,5 @@
 Constitution Deluge;HVY;+0;N;P;1-2pts+Drugs;400;35;ST;60m;800;P&S
-Arasaka "Crowd Control";HVY;+0;N;E;1d3+1;(1d3 hits)(B3);500;50;St;200m;1000;LD
+Arasaka "Crowd Control";HVY;+0;N;E;1d3+1;(1d3 hits)(B3);500;50;ST;200m;1000;LD
 Militech High Power 15;RIF;+2;N;P;2d6+4;(9mm L)(B4);180;20/60;ST;200m;1600;SOF
 Dover GA-1112 Autogun;HVY;+1;N;R;4d6+4;(12mm L)(B7);400;80;ST;400m;1110+;SOF2
 FN MG-6 "One-on-One";HVY;+1;N;P;5d6;(5.56)(B7);100;40;VR;450m;1800;ES

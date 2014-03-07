@@ -1,0 +1,93 @@
+Brawling / Hand To Hand_1
+Melee_1
+Fencing_1
+Archery_1
+Gunnery_1
+Handgun_1
+Heavy Weapons_1
+Rifle_1
+Submachinegun_1
+Awarness / Notice_1
+Hide / Evade_1
+Lipreading_1
+Shadow / Track_1
+Surveillance_1
+Driving_1
+Motorcycle_1
+Hvy. Machinery_1
+Piloting_1
+Pilot (Gyro)_3
+Pilot (Fixed Wing)_2
+Pilot (Dirigible)_2
+Pilot (Vect. Thrust)_3
+Power Armor_3
+Subjock_3
+Link (mecha)_1
+Athletics_1
+Dance_1
+Dodge & Escape_1
+Endurance_1
+Resistance_1
+Stealth_2
+Strength Feat_1
+Swimming_1
+Animal Handling_1
+Bribery_1
+Interrogation_1
+Intimidate_1
+Oratory_1
+Streetwise_1
+Human Perception_1
+Interview_1
+Leadership_1
+Seduction_1
+Social Etiquette_1
+Personal Grooming_1
+Persuasion & Fast Talk_1
+Wardrobe & Style_1
+Aero Tech_2
+AV Tech_3
+Basic Tech_2
+Cryotank Operation_1
+CyberTech_2
+Demolitions_2
+Disguise_1
+Electronics_1
+Elect. Security_2
+First Aid_1
+Forgery_1
+Gyro Tech_3
+Jury Rig_1
+Mecha Tech_1
+Medical Tech_1
+Paint or Draw_1
+Photo & Film_1
+Pharmaceuticals_2
+Pick Lock_1
+Pick Pocket_1
+Weaponsmith_2
+Inferface_1
+Perform_1
+Play Instrument_1
+Ventriloquist_1
+Accounting_1
+Anthropology_1
+Biology_1
+Botany_1
+Chemistry_1
+Coding_1
+Composition_1
+Diagnose Illness_1
+Education & Gen Know_1
+Expert_1
+Gamble_1
+Geology_1
+History_1
+Language_1
+Library Search_1
+Mathematics_1
+Market Trading_1
+Physics_1
+Teaching_1
+Wilderness Survival_1
+Zoology_1

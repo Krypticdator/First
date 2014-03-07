@@ -107,6 +107,18 @@ class Weapon(object):
             except Exception:
                 self.fail=True
                 print('failasi')
+        elif len(dmg)==4:
+            line = dmg.split('d', -1)
+            try:
+                dmg_dices=int(line[0])
+                dmg_sides=int(line[1])
+                max_dmg = dmg_dices * dmg_sides
+                self.__attributes['min_dmg']=dmg_dices
+                self.__attributes['max_dmg']=max_dmg
+                #print('here we are at the test_me dmg block')
+            except Exception:
+                self.fail=True
+            
         elif len(dmg)==5:
             if dmg.count('+')==1:
                 try:
@@ -138,6 +150,8 @@ class Weapon(object):
 
                 except Exception:
                     self.fail = True
+            else:
+                self.fail=True
         else:
             self.fail=True
     def test_shots(self):
@@ -149,7 +163,11 @@ class Weapon(object):
 
     def test_rof(self):
         rof = self.__attributes['ROF']
+        
         try:
+            if rof.count('/')==1:
+                array = rof.split('/')
+                rof = array[1]
             number = int(rof)
         except Exception:
             self.fail = True
@@ -157,6 +175,8 @@ class Weapon(object):
     def test_rel(self):
         rel = self.__attributes['Rel']
         text = ''
+        if rel.count('*')==1:
+            rel = rel[:-1]
         if rel == 'UR':
             text = 'Unreliable'
         elif rel == 'ST':
@@ -197,6 +217,8 @@ class Weapon(object):
             self.test_rel()
             self.test_range()
             self.test_cost()
+            self.getAttribute('min_dmg')
+            self.getAttribute('max_dmg')
         except Exception:
             print('failed testing')
             self.fail = True
@@ -212,6 +234,7 @@ class Weapon(object):
             return self.__attributes[attribute]
         except Exception:
             return 'fail'
+            self.fail=True
     
     def count_avail_diff(self):
         ava = self.__attributes["Avail"]

@@ -1,0 +1,8 @@
+on_bodyplating_body_Cowl_MA_Skullcap, covers head in SP 25_200_1d6_CP20
+on_bodyplating_body_Faceplate_CR_Protective facemask. SP 25_400_4d6_CP20
+on_bodyplating_body_Torso Plate_MA_Torso protection. SP 25. -3 REF_2000_3d6_CP20
+on_bodyplating_body_Front Optic Mount_MA_Allows up to 5 optics to be mounted. -1 ATTR_1000_4d6_CP20
+on_bodyplating_body_Sense ext. ("Rabbit Ears")_M_Head mounted extensors for audio, optics, etc_500_3d6_CP20
+off_bodyplating_body_Total_Body_Plating_CRx2_SP20,_REF-3,_ATTR/2,_-1_Stealth_6800_8d6_Chr2
+off_bodyplating_body_CyberFacial_Remounts_MA/CR_SP_6-18,_ATTR_-1,-2,_15%-50%_protect_150-350_1d6-3d6_Chr3
+off_bodyplating_body_Spyke!_Furniture_N_10SP,_+10SDP,_1d3+1_to_1d6+1AP_400-600_1-3_Chr3

@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from GUI_factory import Category_UI
+from GUI_factory import radio_group
 class GUI_complications(Category_UI):
     """description of class"""
     def __init__(self, master, controller):
@@ -8,6 +9,84 @@ class GUI_complications(Category_UI):
         self.set_dictionaries('source/complication_categories.txt','source/complications_descriptions.txt')
         categories = self.collect_categories()
         self.populate_box(self.box_categories, categories)
+        self.freq_labels = []
+        self.inten_labels = []
+        self.impor_labels = []
+        self.freq_labels.append('Infrequently(5): Once every few gaming sessions')
+        self.freq_labels.append('Frequently(10): Once every gaming session')
+        self.freq_labels.append('Constantly(15): More than once every gaming session')
+
+        self.inten_labels.append('Mild (5)')
+        self.inten_labels.append('Strong (10)')
+        self.inten_labels.append('Severe(15)')
+        self.inten_labels.append('Extreme(20)')
+
+        self.impor_labels.append('Minor')
+        self.impor_labels.append('Major')
+        self.impor_labels.append('Extreme')
+
+        self.options_frame = ttk.Frame(self.frame)
+        #self.options_frame.grid(column=2, row=0)
+        self.button_add.destroy()
+        self.freq_menu = radio_group(self.options_frame, self.freq_labels, 'Frequency',False,0,0, columnspan_num=3)
+        self.inten_menu = radio_group(self.options_frame, self.inten_labels, 'Intensity', False, 1,0)
+        self.inten_menu.frame.grid(column=0, row=1, sticky=(N, W))
+        self.impor_menu = radio_group(self.options_frame, self.impor_labels, 'Importance', False, 1,1)
+        self.impor_menu.frame.grid(column=1, row=1, sticky=(N, W))
+        self.button_add = ttk.Button(self.options_frame, text='add', command=self.add_to_inventory)
+        self.button_add.grid(column=2, row=1, sticky=(W))
+        self.p.add(self.options_frame)
+
+    def add_to_inventory(self, *args):
+        id = self.box_list.curselection()
+        luku = int(id[0])
+        text = self.box_list.get(luku)
+
+        intensity = self.inten_menu.variable.get()
+        importance = self.impor_menu.variable.get()
+        frequency = self.freq_menu.variable.get()
+
+        intensity_num=0
+        importance_num=0
+        frequency_num=0
+
+        if intensity=='Mild (5)':
+            intensity_num=5
+        elif intensity=='Strong (10)':
+            intensity_num=10
+        elif intensity=='Severe(15)':
+            intensity_num=15
+        elif intensity=='Extreme(20)':
+            intensity_num=20
+        
+        if frequency=='Infrequently(5): Once every few gaming sessions':
+            frequency_num=5
+        elif frequency=='Frequently(10): Once every gaming session':
+            frequency_num=10
+        elif frequency=='Constantly(15): More than once every gaming session':
+            frequency_num=15
+
+        if importance=='Minor':
+            importance_num=5
+        elif importance=='Major':
+            importance_num=2
+        elif importance=='Extreme':
+            importance_num=1
+
+        points = (frequency_num + intensity_num) / importance_num
+        #points = points * -1
+
+        self.contr.set_to_ability_list(self.name, text, points)
+        #self.contr.set_char_comp(text, intensity_num, frequency_num, importance_num, points)
+    
+        #list = self.contr.get_from_ability_list(self.name)
+        #value = self.contr.get_char_skill(text)
+        value = self.contr.get_from_ability_list(self.name, text)
+        
+
+        text = text + '\t\t\t|' + str(value) + '|' + str(frequency_num) + '|' + str(intensity_num) +'|' + str(importance_num) + '\n'
+        self.text_inventory.insert('end', text)
+        
 
     def Assign(self, master, controller):
         '''self.contr = controller

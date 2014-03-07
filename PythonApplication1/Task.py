@@ -51,7 +51,7 @@ class Task(object):
 
     def set_c_attribute(self, attribute, Challenger, num = 0):
         if num == 0:
-            self.__Challenger_attribute = Challenger.get_attribute(attribute)
+            self.__Challenger_attribute = Challenger.get_stat(attribute)
         else:
             print("else lausekkeessa")
             self.__Challenger_attribute = num
@@ -65,7 +65,7 @@ class Task(object):
 
     def set_t_attribute(self, attribute, Target, num = 0):
         if num == 0:
-            self.__Target_attribute = Target.get_attribute(attribute)
+            self.__Target_attribute = Target.get_stat(attribute)
         else:
             print("else lausekkeessa")
             self.__Target_attribute = num

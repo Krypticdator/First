@@ -37,6 +37,13 @@ class GUI_personality(object):
         self.var_c_n_name = StringVar()
         var_age = StringVar()
 
+        self.contr.datasets['player'] = var_p_name
+        self.contr.datasets['first name']=self.var_c_fname
+        self.contr.datasets['second name']=self.var_c_sname
+        self.contr.datasets['last name']=self.var_c_lname
+        self.contr.datasets['alias']=self.var_c_n_name
+        self.contr.datasets['age']=var_age
+
         entry_p_name = ttk.Entry(f1, textvariable=var_p_name)
         entry_c_fname = ttk.Entry(f1, textvariable=self.var_c_fname)
         entry_c_sname = ttk.Entry(f1, textvariable=self.var_c_sname)
@@ -54,64 +61,65 @@ class GUI_personality(object):
 
         radio_male = ttk.Radiobutton(gender_frame, text='Male', variable=self.var_gender, value="Male")
         radio_female = ttk.Radiobutton(gender_frame, text='Female', variable=self.var_gender, value="Female")
+        self.contr.datasets['first name'] = self.var_c_fname
 
         #PSYCHOLOGICAL PROFILE
         #PRIME MOTIVATION
-        prime = GUI_per_sub(f2, 'source/prime_motivation.txt',      'Prime Motivation: ')
+        prime = GUI_per_sub(f2, 'source/prime_motivation.txt',      'Prime Motivation: ', controller=self.contr)
         prime_frame=prime.frame
         prime_frame.grid(column = 0, row = 0, sticky=(W))
 
         #Most valued person & posession
-        valued_person = GUI_per_sub(f2,'source/valued_person.txt',  'Most valued person: ')
+        valued_person = GUI_per_sub(f2,'source/valued_person.txt',  'Most valued person: ', controller=self.contr)
         valued_person_frame = valued_person.frame
         valued_person_frame.grid(column =  0, row = 1, sticky=(W))
 
-        valued_pos = GUI_per_sub(f2, 'source/valued_posession.txt', 'Most valued posession: ')
+        valued_pos = GUI_per_sub(f2, 'source/valued_posession.txt', 'Most valued posession: ', controller=self.contr)
         valued_pos_frame = valued_pos.frame
         valued_pos_frame.grid(column = 0, row = 2, sticky=(W))
 
-        valued_people = GUI_per_sub(f2, 'source/valued_people.txt', 'How do you feel about most people: ')
+        valued_people = GUI_per_sub(f2, 'source/valued_people.txt', 'How do you feel about most people: ', controller=self.contr)
         valued_people_frame = valued_people.frame
         valued_people_frame.grid(column = 0, row = 3, sticky=(W))
 
         #INMODE
-        inmode = GUI_per_sub(f2, 'source/inmode.txt', 'Inmode:')
+        inmode = GUI_per_sub(f2, 'source/inmode.txt', 'Inmode:', controller=self.contr)
         inmode_frame = inmode.frame
         inmode_frame.grid(column = 0, row = 4, sticky=(W))
 
         #EXMODE
-        exmode = GUI_per_sub(f2, 'source/exmode.txt', 'Exmode:')
+        exmode = GUI_per_sub(f2, 'source/exmode.txt', 'Exmode:', controller=self.contr)
         exmode_frame = exmode.frame
         exmode_frame.grid(column = 0, row = 5, sticky=(W))
 
         f4 = ttk.Frame(f2)
         #QUIRKS
        
-        quirks = multi_value(f4, 'source/quirks.txt', 'Quirks')
+        quirks = multi_value(f4, 'source/quirks.txt', 'Quirks', controller=self.contr)
         quirks_frame = quirks.frame
         quirks_frame.grid(column = 0, row = 0, sticky=(W))
 
 
         #DISORDERS
-        disorders = multi_value(f4, 'source/disorders.txt', 'Disorders')
+        disorders = multi_value(f4, 'source/disorders.txt', 'Disorders', controller=self.contr)
         disorder_frame = disorders.frame
         disorder_frame.grid(column = 1, row = 0, sticky=(W))
 
         #PHOBIAS
-        phobias = multi_value(f4, 'source/phobias.txt', 'Phobias', leveys = 30, rivit=25)
+        phobias = multi_value(f4, 'source/phobias.txt', 'Phobias', leveys = 30, rivit=25, controller=self.contr)
         phobias_frame = phobias.frame
         phobias_frame.grid(column = 2, row = 0, sticky = (W))
 
         #DRESS & PERSONAL STYLE
-        clothes = multi_value(f3, 'source/clothes.txt','Clothes')
+        clothes = multi_value(f3, 'source/clothes.txt','Clothes', controller=self.contr)
         clothes_frame = clothes.frame
         clothes_frame.grid(column = 0, row = 0)
 
-        hair = multi_value(f3, 'source/hair.txt', 'Hair')
+        hair = multi_value(f3, 'source/hair.txt', 'Hair', controller=self.contr)
         hair_frame = hair.frame
         hair_frame.grid(column = 1, row = 0)
 
-        affe = multi_value(f3, 'source/affections.txt', 'Affections')
+        affe = multi_value(f3, 'source/affections.txt', 'Affections', controller=self.contr)
         affe_frame = affe.frame
         affe_frame.grid(column = 2, row = 0)
 
@@ -173,13 +181,15 @@ class GUI_personality(object):
         f.close()
 
 class multi_value:
-    def __init__(self, master, filepath, label_text='default', korkeus=5, leveys = 15, rivit = 10):
+    def __init__(self, master, filepath, label_text='default', korkeus=5, leveys = 15, rivit = 10, controller = object()):
         self.valuelist = []
         self.stringvars = {}
         self.lines = rivit
         self.Read_file(filepath, self.valuelist)
         self.topic=label_text
         self.frame = ttk.Labelframe(master, text=label_text)
+        self.contr = controller
+        self.contr.datasets[label_text]=self
 
         self.listbox = Listbox(self.frame, height = korkeus,  width = leveys)
         self.button_choose = ttk.Button(self.frame, text='Choose..', command = self.choose_values)
