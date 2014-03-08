@@ -1,3 +1,2 @@
-helmet steel				|20
-metalgear body armor whole body				|600
+helmet nylon				|100
 

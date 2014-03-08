@@ -256,6 +256,7 @@ class Settings(Filecontrol):
             x.set_text(primary_desc[stat],'stat')
 
         x.create_sub_element('secondary_stats','root')
+        x.set_value('system',system,'secondary_stats')
         
         x.create_sub_element('stat','secondary_stats')
         x.set_value('name','luck','stat')
@@ -357,6 +358,7 @@ class Settings(Filecontrol):
 
 
         x.create_sub_element('skills','root')
+        x.set_value('system', system,'skills')
         for skill in skills:
             x.create_sub_element('skill', 'skills')
             x.create_sub_element('name','skill')
@@ -391,5 +393,74 @@ class Settings(Filecontrol):
                 x.set_text(skill_diff[skill],'diff_modifier')
             except Exception:
                 x.set_text('not found','diff_modifier')
+
+        x.create_sub_element('complications', 'root')
+        x.set_value('system',system,'complications')
+        complications = []
+        complication_categories = {}
+        complication_descriptions = {}
+
+        self.Read_file('source/complications.txt', complications)
+        self.read_to_dictionary('source/complication_categories.txt', complication_categories, False)
+        self.read_to_dictionary('source/complications_descriptions.txt', complication_descriptions)
+
+        for complication in complications:
+            x.create_sub_element('complication', 'complications')
+            x.create_sub_element('name', 'complication')
+            x.set_text(complication, 'name')
+
+            x.create_sub_element('category', 'complication')
+            try:
+                x.set_text(complication_categories[complication], 'category')
+            except Exception:
+                x.set_text('not found', 'category')
+
+            x.create_sub_element('description', 'complication')
+            try:
+                x.set_text(complication_descriptions[complication],'description')
+            except Exception:
+                x.set_text('not found', 'description')
+
+        
+        x.create_sub_element('talents','root')
+        x.set_value('system', system,'talents')
+
+        talents = []
+        talent_descriptions = {}
+
+        self.Read_file('source/talents.txt',talents)
+        self.read_to_dictionary('source/talent_descriptions.txt',talent_descriptions, separator='_')
+
+        for talent in talents:
+            x.create_sub_element('talent','talents')
+            x.create_sub_element('name', 'talent')
+            x.set_text(talent,'name')
+            x.create_sub_element('description','talent')
+            
+            try:
+                x.set_text(talent_descriptions[talent],'description')
+            except Exception:
+                x.set_text('not found', 'description')
+
+        x.create_sub_element('perks', 'root')
+        x.set_value('system', system, 'perks')
+        perks = []
+        perk_descriptions = {}
+
+        self.Read_file('source/perks.txt',perks)
+        self.read_to_dictionary('source/perk_descriptions.txt', perk_descriptions, separator='_')
+
+        for perk in perks:
+            x.create_sub_element('perk','perks')
+            x.create_sub_element('name', 'perk')
+            x.set_text(perk, 'name')
+            
+            x.create_sub_element('description', 'perk')
+
+            try:
+                x.set_text(perk_descriptions[perk], 'description')
+            except Exception:
+                x.set_text('not found', 'description')
+
 
         x.save_file('preferences.xml')
