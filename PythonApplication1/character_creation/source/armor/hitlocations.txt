@@ -1,0 +1,16 @@
+3;right_foot;0.5
+4;right_hand;0.5
+5;right_arm;0.5
+6;right_leg;0.5
+7;head;Roll on Head
+8;right_shlder;1
+9;chest;1
+10;chest;1
+11;vitals;1.5
+12;stomach;1.5
+13;left_shlder;1
+14;thighs;1
+15;left_leg;0.5
+16;left_arm;0.5
+17;left_hand;0.5
+18;left_foot;0.5

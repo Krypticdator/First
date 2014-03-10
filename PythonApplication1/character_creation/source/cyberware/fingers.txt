@@ -1,0 +1,30 @@
+Dartgun N 3m range 100 2 Chr1
+Lockpick N Pick for mechanical locks 50 .5 Chr1
+Mini Light N 25m beam, batteries 1eb 25 .5 Chr1
+Finger Bomb N 2d6+3, 3m radius 150 2 Chr1
+Wirecutters/Scissors N 1d6/3 damage 50 1 Chr1
+Mace Sprayer N 2 bursts, -4 REF & Notice for 1d6 turns 150 2 Chr1
+Quick Change Mount N Click and turn mount, mod =20eb 150 1 Chr2
+VidCam (+ 1 option) N IR - 200eb, Teleoptic - 225eb, or Lowlite - 100eb 400+ 2 Chr2
+Self-Propelled Grenade N 7m range, 2d6 over 2m (25eb) 200 2 Chr2
+Aip Hypo N 4 doses, air containers 3eb 200 1 Chr2
+Tracking Device N 3m range, 2 bugs, 3 km transmitter 300 .5 Chr2
+Lighter N 2 hours of fuel, 1 eb/refill 25 2 Chr2
+Probe Link N Interface link 150 .5 Chr3
+Parabolic Microphone N 20x Microphone, for full arms 350 2 Chr3
+Flasher N Diff REF to blind target for 1 min (25eb) 250 1 Chr3
+IR/UV Flashlight N 10m range 200 1 Chr3
+Flare N 150m altitude, 25m diameter (15eb) 200 2 Chr3
+Storage Compartment N Small space 75 .5 Chr3
+Laser Pointer N 20m 150 .5 Chr3
+Flesh Mount M Allows cyberfingers to be mounted on meat hand 100 1 Chr4
+One-Shot Special N P -2 P E 1d6 (5mm) 1 1 ST 20m 250 2 Chr4
+Ballpoint Finger N Leakproof pen 25 .5 Chr4
+Cyberfinger Oxygen Tank N 30 seconds of oxygen 250 .5 SA
+Screwdriver N Powered screwdriver finger 50 .5 I1.1
+Wrench N Adjustable wrench finger 50 .5 I1.1
+Drill N Adjustable drill finger 50 .5 I1.1
+Soldering Iron N Electric Soldering Iron finger 50 .5 I1.1
+Socket Wrench N Adjustable powered socket wrench finger 50 .5 I1.1
+Tentacle Finger N 10 cm long tentacle 500 1 I2.2
+Extendable Tentacle N 30 cm long tentacle, requires cyberhand 750 1 I2.2

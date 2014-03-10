@@ -1,0 +1,9 @@
+on_cyberfeet_cyberlimb_Standard Foot_N_Resembles normal foot_200_0_CP20
+on_cyberfeet_cyberlimb_Talon Foot_N_Extends toe blades. 1d6* damage_600_2d6_CP20
+on_cyberfeet_cyberlimb_Tool Foot_N_Toes contain screwdriver, wrench, drill, etc_300_2_CP20
+on_cyberfeet_cyberlimb_Web Foot_N_Doubles swimming speed, +3 to Swim skill_500_2_CP20
+on_cyberfeet_cyberlimb_Grip Foot_N_For better gripping strength. +2 to Climb_500_2_CP20
+on_cyberfeet_cyberlimb_Spike Heel Foot_N_Heel spike for lethal kicks. 2d6AP damage_500_2d6_CP20
+off_cyberfeet_cyberlimb_Skate Foot_N_Allows an MA 20. Use Athletics or skate skill_440_1d6_Chr1
+off_cyberfeet_cyberlimb_Anchoring_Cyberfeet_N_Anchors_use_to_ground._4_uses_(2_spaces_each)_400_3_Chr2
+off_cyberfeet_cyberlimb_Catspaw_Stealth_Foot_N_+1_to_Stealth_skill_150_1_Chr4
