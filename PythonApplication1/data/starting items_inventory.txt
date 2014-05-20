@@ -1,3 +1,7 @@
 Armored Trenchcoat (Sp10)				|1
-Full Range Commo				|1
+Light Submachinegun (Choose Type)				|1
+Hand Taser				|1
+Light Handgun (Choose Type)				|1
+Ammo (50 Rounds)				|1
+Datachips (3 Total; You Decide What’s In ‘Em)				|1
 

@@ -1,4 +1,4 @@
-class __init__(object):
+class FileControl(object):
     """description of class"""
 
 

@@ -1,5 +1,5 @@
 off_Neuralware_body_Advanced Processor (CIA)_M_INTx2 chips of +8 skill, -1_INT after 24 hrs, diff 35_2000_1d6_RM
-on_Neuralware_body_Kerenzikov Boosterware_N_Adds +1 to Initiative for every level up to +2_500_1d6/2d6_CP20
+on_Neuralware_body_Kerenzikov Boosterware_N_Adds +1 to Initiative for every level up to +2_500_1d6_CP20
 on_Neuralware_body_Speedware (Sandevistan)_N_Adds +3 to Initiative for 5 turns_1600_1d6/2_CP20
 off_Neuralware_body_Boostmaster_N_+1 REF with both types of boosterware_650_1d6/2_SOF
 off_Neuralware_body_Ubermensch Speedware_N_Adds +2 to Initiative for 5 turns_1600_1d6/2_ET

@@ -31,7 +31,10 @@
     <Compile Include="cyberitem.py" />
     <Compile Include="Filecontrol.py" />
     <Compile Include="gamesession\Character.py" />
+    <Compile Include="gamesession\FileController.py" />
     <Compile Include="gamesession\GameObject.py" />
+    <Compile Include="gamesession\Preferences.py" />
+    <Compile Include="gamesession\XmlController.py" />
     <Compile Include="GroupLayoutDemo.py" />
     <Compile Include="GUI_armor.py" />
     <Compile Include="GUI_complications.py" />
@@ -77,6 +80,7 @@
     <Compile Include="xml_file.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="gamesession\preferences\" />
     <Folder Include="lifepath\" />
     <Folder Include="data\" />
     <Folder Include="lifepath\family\" />
@@ -117,6 +121,7 @@
     <Content Include="lifepath\lp_love_problems.txt" />
     <Content Include="lifepath\lp_love_tragic.txt" />
     <Content Include="lifepath\lp_lucky.txt" />
+    <Content Include="math_results.txt" />
     <Content Include="source\.project" />
     <Content Include="source\affections.txt" />
     <Content Include="source\armor\hitlocations.txt" />

@@ -90,10 +90,12 @@ class Settings(Filecontrol):
         print(self.failure_wpns)
 
 
-    def read_to_dictionary(self, filepath, dictionary, key_value=True, separator = ';'):
+    def read_to_dictionary(self, filepath, dictionary, key_value=True, separator = ';', lowercase=False):
         f = open(filepath, 'r')
         for line in f:
             merkkijono = line[:-1]
+            if lowercase:
+                merkkijono = str.lower(merkkijono)
             rivitiedot = merkkijono.split(separator, -1)
             #print(rivitiedot)
             if key_value:
@@ -102,10 +104,12 @@ class Settings(Filecontrol):
                 dictionary[rivitiedot[1]] = rivitiedot[0]
         f.close()
 
-    def Read_file(self, filepath ,target):
+    def Read_file(self, filepath ,target, lowercase=False):
         f = open(filepath, 'r')
         for line in f:
            merkkijono = line.strip()
+           if lowercase:
+               merkkijono = str.lower(merkkijono)
            target.append(merkkijono)
         f.close()
 
@@ -269,7 +273,7 @@ class Settings(Filecontrol):
         x.set_value('name','hum','stat')
         x.set_value('first_source','will','stat')
         x.set_value('second_source','none','stat')
-        x.set_value('multiplier','10,','stat')
+        x.set_value('multiplier','10','stat')
         x.set_value('divider','1','stat')
 
         x.create_sub_element('stat','secondary_stats')
@@ -462,5 +466,93 @@ class Settings(Filecontrol):
             except Exception:
                 x.set_text('not found', 'description')
 
+        affections = []
+        self.Read_file('source/affections.txt', affections)
+
+        x.create_sub_element('tables', 'root')
+        x.set_value('system', system, 'tables')
+        x.create_sub_element('table','tables')
+        x.set_value('name','affections','table')
+        choice_num=1
+        for affe in affections:
+            x.create_sub_element('choice', 'table')
+            x.set_value('from',str(choice_num),'choice')
+            x.set_value('to',str(choice_num),'choice')
+            x.set_text(affe, 'choice')
+            choice_num=choice_num +1
+
+        clothes = []
+        disorders = []
+        exmodes = []
+        hair = []
+        inmodes = []
+        phobias = []
+        prime = []
+        quirks = []
+        people = []
+        vperson = []
+        vposession = []
+
+        self.create_table(x,'clothes',array= clothes,filepath='source/clothes.txt')
+        self.create_table(x, 'disorders',array=disorders, filepath='source/disorders.txt')
+        self.create_table(x, 'exmodes', array=exmodes,filepath='source/exmode.txt')
+        self.create_table(x, 'hair',array=hair, filepath='source/hair.txt')
+        self.create_table(x, 'inmodes', array=inmodes, filepath='source/inmode.txt')
+        self.create_table(x, 'phobias', array=phobias, filepath='source/phobias.txt')
+        self.create_table(x, 'prime_motivations', array=prime, filepath='source/prime_motivation.txt')
+        self.create_table(x, 'quirks', array=quirks, filepath='source/quirks.txt')
+        self.create_table(x, 'valued_people', array=people, filepath='source/valued_people.txt')
+        self.create_table(x, 'valued_person', array=vperson, filepath='source/valued_person.txt')
+        self.create_table(x, 'valued_posession', array=vposession, filepath='source/valued_posession.txt')
+
+        l4A = []
+        l4B = []
+        disaster_do = []
+        disaster = []
+        enemy_cause = []
+        enemy_do = []
+        enemy_hate = []
+        enemy_resource = []
+        enemy_who = []
+        event_menu = []
+        friend = []
+        complicated = []
+        love_event = []
+        love_mutual = []
+        love_problem = []
+        love_tragic = []
+        lucky_table = []
+
+        self.create_table(x, '4A', array=l4A, filepath='lifepath/lp_4A_menu.txt')
+        self.create_table(x, '4B', array=l4B, filepath='lifepath/lp_4B_menu.txt')
+        self.create_table(x, 'disaster_reaction', array=disaster_do, filepath='lifepath/lp_disaster_do_something.txt')
+        self.create_table(x, 'disaster_strikes', array=disaster, filepath='lifepath/lp_disaster_strikes.txt')
+        self.create_table(x, 'enemy_cause', array=enemy_cause, filepath='lifepath/lp_enemy_cause.txt')
+        self.create_table(x, 'enemy_do', array=enemy_do, filepath='lifepath/lp_enemy_do.txt')
+        self.create_table(x, 'enemy_hate',array=enemy_hate, filepath='lifepath/lp_enemy_hate.txt')
+        self.create_table(x, 'enemy_resources', array=enemy_resource, filepath='lifepath/lp_enemy_resource.txt')
+        self.create_table(x, 'enemy_who', array=enemy_who, filepath='lifepath/lp_enemy_who.txt')
+        self.create_table(x, 'event_menu', array=event_menu, filepath='lifepath/lp_event_menu.txt')
+        self.create_table(x, 'friend_relationships', array=friend, filepath='lifepath/lp_friend_relationship.txt')
+        self.create_table(x, 'love_complicated', array=complicated, filepath='lifepath/lp_love_complicated.txt')
+        self.create_table(x, 'love_events', array=love_event, filepath='lifepath/lp_love_event.txt')
+        self.create_table(x, 'love_mutual', array=love_mutual, filepath='lifepath/lp_love_mutual.txt')
+        self.create_table(x, 'love_problems', array=love_problem, filepath='lifepath/lp_love_problems.txt')
+        self.create_table(x, 'love_tragic', array=love_tragic, filepath='lifepath/lp_love_tragic.txt')
+        self.create_table(x, 'lucky_table', array=lucky_table, filepath='lifepath/lp_lucky.txt')
 
         x.save_file('preferences.xml')
+
+    def create_table(self, xml_file, name, array=[], filepath='null'):
+        self.Read_file(filepath, array)
+        #print(array)
+        xml_file.create_sub_element('table','tables')
+        xml_file.set_value('name', name, 'table')
+
+        choice_num=1
+        for cell in array:
+            xml_file.create_sub_element('choice', 'table')
+            xml_file.set_value('from', str(choice_num),'choice')
+            xml_file.set_value('to', str(choice_num),'choice')
+            xml_file.set_text(cell, 'choice')
+            choice_num=choice_num+1

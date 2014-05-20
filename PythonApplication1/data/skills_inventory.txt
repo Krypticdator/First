@@ -1,2 +1,18 @@
-Driving				|1
+Awarness / Notice				|3
+Human Perception				|3
+Dodge & Escape				|2
+Resistance				|2
+Motorcycle				|4
+Education & Gen Know				|3
+Chemistry				|4
+Brawling / Hand To Hand				|2
+Melee				|5
+Bribery				|3
+Intimidate				|3
+Streetwise				|6
+Persuasion & Fast Talk				|3
+Handgun				|5
+Submachinegun				|2
+Forgery				|3
+Pharmaceuticals				|4
 

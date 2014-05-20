@@ -100,11 +100,55 @@ class GUI_math_analysis(object):
                 self.vars[i].set(text)
                 self.var_state.set(str(bp))
                 self.root.update()
+            file = open('math_results.txt', 'a')
+            file.write(str(bp) + ';' +str(i) +';' +str(self.vars[i].get()) + '\n')
+            file.close()
 
 class CombatDamage(object):
     def __init__(self, master, root):
         self.root = root
         self.frame = ttk.Frame(master)
+        self.lbl_bp = ttk.Label(self.frame, text='bp')
+        self.lbl_dmg = ttk.Label(self.frame, text='dmg')
+        self.lbl_ac = ttk.Label(self.frame, text='ac')
+        self.lbl_e_bp = ttk.Label(self.frame, text='enemy bp')
+        self.lbl_dmg_change = ttk.Label(self.frame, text='change of damage')
+        self.lbl_dmg_per_turn = ttk.Label(self.frame, text='dmg per turn')
+        self.lbl_average_dmg = ttk.Label(self.frame, text='average dmg')
+        self.lbl_lowest_dmg = ttk.Label(self.frame, text='lowest dmg')
+        self.lbl_highest_dmg = ttk.Label(self.frame, text='highest dmg')
+
+        self.var_bp = StringVar()
+        self.var_dmg = StringVar()
+        self.var_ac = StringVar()
+        self.var_e_bp = StringVar()
+        self.var_dmg_change = StringVar()
+        self.var_dmg_per_turn = StringVar()
+        self.var_average_dmg = StringVar()
+        self.var_lowest_dmg = StringVar()
+        self.var_highest_dmg = StringVar()
+
+        self.lbl_val_bp = ttk.Label(self.frame, textvariable=self.var_bp)
+        self.lbl_val_dmg = ttk.Label(self.frame, textvariable=self.var_dmg)
+        self.lbl_val_ac = ttk.Label(self.frame, textvariable=self.var_ac)
+        self.lbl_val_e_bp = ttk.Label(self.frame, textvariable=self.var_e_bp)
+        self.lbl_val_dmg_change = ttk.Label(self.frame, textvariable=self.var_dmg_change)
+        self.lbl_val_dmg_per_turn = ttk.Label(self.frame, textvariable=self.var_dmg_per_turn)
+        self.lbl_val_lowest_dmg = ttk.Label(self.frame, textvariable=self.var_lowest_dmg)
+        self.lbl_val_highest_dmg = ttk.Label(self.frame, textvariable=self.var_highest_dmg)
+
+        self.btn_start = ttk.Button(self.frame, text='start')
+
+        self.lbl_bp.grid(column=0, row=0)
+        self.lbl_val_bp.grid(column=1, row=0)
+        self.lbl_dmg.grid(column=0,row=1)
+        self.lbl_val_dmg(column=1, row=1)
+        self.lbl_e_bp.grid(column=2, row=0)
+        self.lbl_ac.grid(column=3, row=0) 
+
+
+        
+
 
         
                 

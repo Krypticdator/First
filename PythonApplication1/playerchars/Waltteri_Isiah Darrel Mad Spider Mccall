@@ -1,0 +1,151 @@
+<Character>
+	<info>
+		<player>Waltteri</player>
+		<first_name>Isiah</first_name>
+		<second_name>Darrel</second_name>
+		<last_name>Mccall</last_name>
+		<alias>Mad Spider</alias>
+		<age>24</age>
+	</info>
+	<family>
+		<family_rank>Poor</family_rank>
+		<parents>Father</parents>
+		<parent_status>Something has happened to one or both parents.</parent_status>
+		<parent_event>Your parent(s) died in warfare</parent_event>
+		<family_status>Family status is OK</family_status>
+		<family_event>nothing bad happened to family</family_event>
+		<childhood_enviroment>Spent at home with little adult supervision.</childhood_enviroment>
+		<childhood_trauma_fortune>You had a caring family</childhood_trauma_fortune>
+		<family_contact>Only annual contact with core family.</family_contact>
+		<siblings />
+		<sibling age="0" gender="none" relation="none">you are the only child</sibling>
+	</family>
+	<personality>
+		<prime_motivation>Social Status</prime_motivation>
+		<most_valued_person>A personal hero</most_valued_person>
+		<most_valued_posession>piece of jewelry</most_valued_posession>
+		<feels_about_people>You're born, you live, you die</feels_about_people>
+		<inmode>Curious</inmode>
+		<exmode>Forceful/Aggressive</exmode>
+		<quirk>Rebellious</quirk>
+		<quirk>Radical</quirk>
+		<quirk>Alcoholic</quirk>
+		<disorder>Suicidal</disorder>
+		<disorder>Addict</disorder>
+		<phobia>Entomophobia (insects)</phobia>
+		<hair>Dreads</hair>
+		<clothes>Paramilitary</clothes>
+		<affection>Tattoos</affection>
+	</personality>
+	<skills>
+		<skill type="Dodge &amp; Escape">2</skill>
+		<skill type="Motorcycle">4</skill>
+		<skill type="Handgun">5</skill>
+		<skill type="Forgery">3</skill>
+		<skill type="Resistance">2</skill>
+		<skill type="Education &amp; Gen Know">3</skill>
+		<skill type="Streetwise">6</skill>
+		<skill type="Human Perception">3</skill>
+		<skill type="Pharmaceuticals">4</skill>
+		<skill type="Awarness / Notice">3</skill>
+		<skill type="Chemistry">4</skill>
+		<skill type="Submachinegun">2</skill>
+		<skill type="Bribery">3</skill>
+		<skill type="Intimidate">3</skill>
+		<skill type="Persuasion &amp; Fast Talk">3</skill>
+		<skill type="Brawling / Hand To Hand">2</skill>
+		<skill type="Melee">5</skill>
+	</skills>
+	<attributes>
+		<attribute type="Fun">0</attribute>
+		<attribute type="Move">3</attribute>
+		<attribute type="Con">6</attribute>
+		<attribute type="Luck">5.5</attribute>
+		<attribute type="Sprint">9</attribute>
+		<attribute type="Res">21</attribute>
+		<attribute type="Str">7</attribute>
+		<attribute type="Hunger">0</attribute>
+		<attribute type="Tech">6</attribute>
+		<attribute type="Dex">5</attribute>
+		<attribute type="Swim">3</attribute>
+		<attribute type="Ref">5</attribute>
+		<attribute type="SD">12</attribute>
+		<attribute type="Pre">6</attribute>
+		<attribute type="Rec">6.5</attribute>
+		<attribute type="Hum">70</attribute>
+		<attribute type="Run">6</attribute>
+		<attribute type="End">12</attribute>
+		<attribute type="Will">7</attribute>
+		<attribute type="Hits">45</attribute>
+		<attribute type="Stun">45</attribute>
+		<attribute type="Int">6</attribute>
+		<attribute type="Leap">3</attribute>
+		<attribute type="Tiredness">0</attribute>
+		<attribute type="Body">9</attribute>
+	</attributes>
+	<perks>
+		<perk type="Streetdeal">3</perk>
+		<perk type="Membership">3</perk>
+		<perk type="Membership">3</perk>
+	</perks>
+	<talents>
+		<talent type="High Pain Threshold">1</talent>
+		<talent type="Intuition">1</talent>
+		<talent type="Rapid Healing">1</talent>
+		<talent type="Common Sense">1</talent>
+	</talents>
+	<complications>
+		<complication frequency="15" importance="1" intensity="10" type="Reduced Mobility">25.0</complication>
+		<complication frequency="15" importance="5" intensity="5" type="Intolerance(Gipsies, somalis)">4.0</complication>
+		<complication frequency="10" importance="2" intensity="15" type="Addiction(Int +3 booster, +2 ref booster)">12.5</complication>
+		<complication frequency="15" importance="2" intensity="5" type="Paranoia">10.0</complication>
+	</complications>
+	<cyberwears>
+		<cyberwear name="Enhanced Antibodies">6.0</cyberwear>
+		<cyberwear name="Processor">5.0
+		<option name="Chipware Socket">5.0</option>
+		</cyberwear>
+		<cyberwear name="Kerenzikov Boosterware">0</cyberwear>
+		<cyberwear name="Kerenzikov Boosterware">0</cyberwear>
+		<cyberwear name="Interface Plugs">3.0</cyberwear>
+		<cyberwear name="Smartgun Link">2.0</cyberwear>
+		<cyberwear name="Adrenal Booster">7.0</cyberwear>
+		<cyberwear name="Skinwatch">1.0</cyberwear>
+		<cyberwear name="Synthskin Tuning Chips">0</cyberwear>
+		<cyberwear name="Synthskins">6.0</cyberwear>
+		<cyberwear name="Techhair">2.0</cyberwear>
+		<cyberwear name="Shift-tacts">0.5</cyberwear>
+		<cyberwear name="Kill Display">1.0</cyberwear>
+		<cyberwear name="Biomonitor">1.0</cyberwear>
+		<cyberwear name="Voice Stress Analyzer">1.0</cyberwear>
+		<cyberwear name="Wearman">0.5</cyberwear>
+		<cyberwear name="Cyberaudio">6.0</cyberwear>
+		<cyberwear name="Grafted Muscle">7.0</cyberwear>
+		<cyberwear name="Audio/Video Tape Recorder">2.0</cyberwear>
+	</cyberwears>
+	<items>
+		<item type="weapon">Federated Arms X-38</item>
+		<item type="weapon">H&amp;K MPK-9</item>
+		<item type="weapon">Dai Lung Magnum</item>
+		<item type="weapon">H&amp;K MPK-11</item>
+		<item type="armor">fibremesh ballistic cloth fashionware trenchcoat</item>
+		<item type="item">Armored Trenchcoat (Sp10)</item>
+		<item type="item">Light Handgun (Choose Type)</item>
+		<item type="item">Light Submachinegun (Choose Type)</item>
+		<item type="item">Ammo (50 Rounds)</item>
+		<item type="item">Hand Taser</item>
+		<item type="item">Datachips (3 Total; You Decide What&#8217;s In &#8216;Em)</item>
+	</items>
+	<lifepath>
+		<event age="15" type="Nothing Happened That Year" />
+		<event age="16" type="Nothing Happened That Year" />
+		<event age="17" disaster_type="crime" hunter="Only a couple local renta-cops want you" type="disaster" />
+		<event age="18" love_type="with problems" problem="You fight constantly" type="love" />
+		<event age="19" type="Nothing Happened That Year" />
+		<event age="20" friend_type="Reconnect with an old childhood friend" type="friend" />
+		<event age="21" cause="Caused a physical disability" enemy_type="Person you work for" reaction="Ignore the scum" relation="The feeling's mutual" resources="An entire Gang" type="enemy" />
+		<event age="22" friend_type="A teacher or mentor" type="friend" />
+		<event age="23" amount="100" lucky_type="fortune" type="lucky" />
+		<event age="24" love_type="hot dates" type="love" />
+	</lifepath>
+</Character>

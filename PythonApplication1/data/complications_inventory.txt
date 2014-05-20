@@ -1,4 +1,5 @@
-Personal Habits			|15.0|10|20|2
-Unlucky			|15.0|10|20|2
-Absend Minded			|15.0|10|20|2
+Addiction			|12.5|10|15|2
+Intolerance			|4.0|15|5|5
+Reduced Mobility			|25.0|15|10|1
+Paranoia			|10.0|15|5|2
 

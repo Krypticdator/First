@@ -39,6 +39,7 @@ class start:
         menu_file.add_command(label='New Character', command=self.newChar)
         menu_edit.add_command(label='Item creator', command = self.newItem)
         menu_edit.add_command(label='Probabilities', command = self.probabs)
+        menu_edit.add_command(label='Combat probabilities', command=self.combat_probabs)
         self.root.mainloop()
 
         file = xml_control()
@@ -56,6 +57,8 @@ class start:
         probs = GUI_math_analysis()
         window = Toplevel(self.root)
         probs.assign('none', window, self.root)
+    def combat_probabs(self):
+        pass
 
 x = start()
 cp= cp20ex()

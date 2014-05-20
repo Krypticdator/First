@@ -1,3 +1,5 @@
-Ingram MAC 10				|250
-Ingram MAC 10				|250
+Federated Arms X-38				|0
+H&K MPK-9				|0
+Dai Lung Magnum				|60
+H&K MPK-11				|700
 
