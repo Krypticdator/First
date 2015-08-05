@@ -1,2 +1,22 @@
-Link (mecha)				|5
+Awarness / Notice				|5
+Dodge & Escape				|5
+Education & Gen Know				|1
+Persuasion & Fast Talk				|1
+Brawling / Hand To Hand				|5
+Athletics				|8
+Resistance				|5
+Human Perception				|6
+Stealth				|4
+Dance				|2
+Endurance				|6
+Melee				|4
+Intimidate				|3
+Leadership				|1
+Streetwise				|3
+Perform				|2
+Play Instrument				|2
+Handgun				|3
+Pick Pocket				|3
+Pick Lock				|3
+First Aid				|3
 

@@ -46,7 +46,7 @@ class GUI_family(Filecontrol):
 
     def gen_siblings(self):
         d = Dice()
-        roll = d.Roll(1, 10)
+        roll = d.roll(1, 10)
         self.relations = []
         self.siblings = []
         self.gender_table = []

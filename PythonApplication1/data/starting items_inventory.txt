@@ -1,7 +1,7 @@
-Agent (Basic)				|1
-Armored Trenchcoat (Sp10)				|1
-Fighting Knife				|1
 Light Handgun (Choose Type)				|1
-Bivvybag (For Nights On The Street/Road)				|1
-Ammo (50 Rounds)				|1
+Monoblade (Choose Type)				|1
+Fighting Knife				|1
+Armored Trenchcoat (Sp10)				|1
+Agent (Basic)				|1
+Lightstix				|1
 

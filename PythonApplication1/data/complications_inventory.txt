@@ -1,7 +1,7 @@
-Impulsiveness			|12.5|10|15|2
-Obsessed			|12.5|15|10|2
-Vocal Impairment			|5.0|5|5|2
-Split Personality			|10.0|10|10|2
-Code of Honor			|12.5|15|10|2
-Outsider			|4.0|10|10|5
+Addiction			|7.5|10|5|2
+Honesty			|15.0|15|15|2
+Obsessed			|4.0|15|5|5
+Delusions			|15.0|15|15|2
+Code of Honor			|15.0|15|15|2
+Distinctive			|6.0|15|15|5
 

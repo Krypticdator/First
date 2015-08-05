@@ -1,0 +1,143 @@
+<Character>
+	<info>
+		<player>Nina</player>
+		<first_name>Aileen</first_name>
+		<second_name>Norene</second_name>
+		<last_name>Singleton</last_name>
+		<alias>Taiko</alias>
+		<age>25</age>
+	</info>
+	<family>
+		<family_rank>Poor</family_rank>
+		<parents>Friend of parents</parents>
+		<parent_status>Something has happened to one or both parents.</parent_status>
+		<parent_event>Your parent(s) were murdered</parent_event>
+		<family_status>Family status in danger</family_status>
+		<family_event>Your family was scattered to the winds due to misfortune</family_event>
+		<childhood_enviroment>Grew up hanging out with the local youth gang.</childhood_enviroment>
+		<childhood_trauma_fortune>You were best in your class</childhood_trauma_fortune>
+		<family_contact>years no contact with any family members.</family_contact>
+		<siblings />
+		<sibling age="0" gender="none" relation="none">you are the only child</sibling>
+	</family>
+	<personality>
+		<prime_motivation>Love of Duty</prime_motivation>
+		<most_valued_person>Yourself</most_valued_person>
+		<most_valued_posession>book or diary</most_valued_posession>
+		<feels_about_people>People must earn my respect! No free rides here</feels_about_people>
+		<inmode>Compassionate</inmode>
+		<exmode>Intellectual/Detached</exmode>
+		<quirk>Honorable</quirk>
+		<quirk>Generous</quirk>
+		<quirk>Precise</quirk>
+		<quirk>Obsessive</quirk>
+		<quirk>Loyal</quirk>
+		<quirk>Truthful</quirk>
+		<quirk>Religious</quirk>
+		<quirk>Pious</quirk>
+		<quirk>Passionate</quirk>
+		<quirk>Musical</quirk>
+		<quirk>Compulsive</quirk>
+		<disorder>Delusions</disorder>
+		<disorder>Martyr</disorder>
+		<disorder>Hallucinations</disorder>
+		<disorder>Addict</disorder>
+		<phobia>Pathophobia (disease)</phobia>
+		<hair>Bald/Shaved</hair>
+		<clothes>Tribal Dress</clothes>
+		<clothes>Utilitarian</clothes>
+		<affection>Waist Pouch</affection>
+		<affection>Scaring/Branding</affection>
+	</personality>
+	<skills>
+		<skill type="Dance">2</skill>
+		<skill type="Stealth">4</skill>
+		<skill type="First Aid">3</skill>
+		<skill type="Awarness / Notice">5</skill>
+		<skill type="Brawling / Hand To Hand">5</skill>
+		<skill type="Resistance">5</skill>
+		<skill type="Intimidate">3</skill>
+		<skill type="Melee">4</skill>
+		<skill type="Perform">2</skill>
+		<skill type="Athletics">8</skill>
+		<skill type="Education &amp; Gen Know">1</skill>
+		<skill type="Dodge &amp; Escape">5</skill>
+		<skill type="Persuasion &amp; Fast Talk">1</skill>
+		<skill type="Pick Lock">3</skill>
+		<skill type="Play Instrument">2</skill>
+		<skill type="Leadership">1</skill>
+		<skill type="Endurance">6</skill>
+		<skill type="Human Perception">6</skill>
+		<skill type="Streetwise">3</skill>
+		<skill type="Handgun">3</skill>
+		<skill type="Pick Pocket">3</skill>
+	</skills>
+	<attributes>
+		<attribute type="Body">7</attribute>
+		<attribute type="Hum">90</attribute>
+		<attribute type="Int">2</attribute>
+		<attribute type="Ref">7</attribute>
+		<attribute type="Con">5</attribute>
+		<attribute type="Tech">2</attribute>
+		<attribute type="Pre">7</attribute>
+		<attribute type="Rec">6.0</attribute>
+		<attribute type="Sprint">21</attribute>
+		<attribute type="Stun">35</attribute>
+		<attribute type="Dex">7</attribute>
+		<attribute type="SD">10</attribute>
+		<attribute type="Run">14</attribute>
+		<attribute type="Luck">4.5</attribute>
+		<attribute type="Fun">0</attribute>
+		<attribute type="End">10</attribute>
+		<attribute type="Will">9</attribute>
+		<attribute type="Str">7</attribute>
+		<attribute type="Hits">35</attribute>
+		<attribute type="Res">27</attribute>
+		<attribute type="Move">7</attribute>
+		<attribute type="Leap">7</attribute>
+		<attribute type="Hunger">0</attribute>
+		<attribute type="Tiredness">0</attribute>
+		<attribute type="Swim">7</attribute>
+	</attributes>
+	<perks>
+		<perk type="Contact(Courtney Breanne Fast Spider Clay)">3</perk>
+		<perk type="Renown">1</perk>
+	</perks>
+	<talents>
+		<talent type="Longevity">1</talent>
+		<talent type="Rapid Healing">1</talent>
+		<talent type="Combat Sense">3</talent>
+		<talent type="Blind Reaction">1</talent>
+		<talent type="High Pain Threshold">1</talent>
+	</talents>
+	<complications>
+		<complication frequency="10" importance="2" intensity="5" type="Addiction">7.5</complication>
+		<complication frequency="15" importance="2" intensity="15" type="Code of Honor">15.0</complication>
+		<complication frequency="15" importance="2" intensity="15" type="Delusions">15.0</complication>
+		<complication frequency="15" importance="5" intensity="5" type="Obsessed">4.0</complication>
+		<complication frequency="15" importance="5" intensity="15" type="Distinctive">6.0</complication>
+		<complication frequency="15" importance="2" intensity="15" type="Honesty">15.0</complication>
+	</complications>
+	<cyberwears />
+	<items>
+		<item type="weapon">Tokarev 1933 TT-33</item>
+		<item type="armor">fibremesh ballistic cloth fashionware trenchcoat</item>
+		<item type="item">Armored Trenchcoat (Sp10)</item>
+		<item type="item">Agent (Basic)</item>
+		<item type="item">Light Handgun (Choose Type)</item>
+		<item type="item">Monoblade (Choose Type)</item>
+		<item type="item">Fighting Knife</item>
+		<item type="item">Lightstix</item>
+	</items>
+	<lifepath>
+		<event age="18" type="Nothing Happened That Year" />
+		<event age="19" cause="Caused the other to lose face or status" enemy_type="Childhood enemy" reaction="Go into a murderous, killing rage and rip his face off!" relation="They hate you" resources="Just themselves" type="enemy" />
+		<event age="20" type="Nothing Happened That Year" />
+		<event age="21" amount="-1000" disaster_type="debt" type="disaster" />
+		<event age="22" amount="200" lucky_type="fortune" type="lucky" />
+		<event age="23" betrayel_type="you are being blackmailed." disaster_type="betrayel" type="disaster" />
+		<event age="24" friend_type="An old enemy (choose which one)" type="friend" />
+		<event age="24" friend_type="Reconnect with an old childhood friend" type="friend" />
+		<event age="25" cause="Caused the loss of a lover, friend or relative" enemy_type="Neo-Corporate Exec" reaction="Backstab him indirectly" relation="They hate you" resources="An entire Gang" type="enemy" />
+	</lifepath>
+</Character>

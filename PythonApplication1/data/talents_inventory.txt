@@ -1,3 +1,6 @@
-Beatiful / Handsome				|1
-Combat Sense				|1
+Rapid Healing				|1
+Longevity				|1
+High Pain Threshold				|1
+Combat Sense				|3
+Blind Reaction				|1
 

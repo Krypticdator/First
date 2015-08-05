@@ -1,5 +1,3 @@
-Contact(Alejandro Fermin Angry Asparagus Boyd)				|2
-Contact(Eugenio Deshawn Soft Medicine Gardner)				|3
-Favor(Claribel Blanch Looney Broccoli Holder)				|1
-Streetdeal				|4
+Contact(Courtney Breanne Fast Spider Clay)				|3
+Renown				|1
 
